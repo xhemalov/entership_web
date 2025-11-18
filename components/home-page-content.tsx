@@ -200,8 +200,8 @@ export default function HomePageContent() {
 
               return (
                 <div key={index} className="group text-center">
-                  <div className="w-16 h-16 bg-yellow-accent rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-purple-main font-nasalization font-bold text-2xl">{index + 1}</span>
+                  <div className="w-16 h-16 border-2 border-yellow-accent rounded-lg mx-auto mb-4 flex items-center justify-center">
+                    {getIcon(item.icon)}
                   </div>
                   <h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed-xl">{item.title}</h3>
                   <p className="text-purple-200 font-inter">{item.desc}</p>
@@ -275,7 +275,7 @@ export default function HomePageContent() {
               <h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed">Deep research</h3>
               <p className="text-purple-200 font-inter">Hloubkové analýzy a výzkum s AI</p>
             </div>
-            <div className="text-center">
+            <div className="text-center md:col-start-2">
               <div className="w-16 h-16 bg-yellow-accent rounded-full mx-auto mb-4 flex items-center justify-center">
                 <span className="text-purple-main font-nasalization font-bold text-2xl">7</span>
               </div>
