@@ -15,7 +15,7 @@ export default function HomePageContent() {
   return (
     <div className="min-h-screen bg-purple-main text-cream">
       {/* Navigation */}
-      <nav className="flex items-center justify-between px-6 py-4 lg:px-12 bg-purple-main">
+      <nav className="sticky top-0 z-50 flex items-center justify-between px-6 py-4 lg:px-12 bg-purple-main border-b border-purple-light/10">
         <img 
           src="https://assets.macaly-user-data.dev/cdn-cgi/image/format=webp,width=2000,height=2000,fit=scale-down,quality=90,anim=true/h78douel905nwuxnwh8o3ggu/fs3w9kis8argxhrbeysyrfjn/bHLqutq0N2XjQ9sEPOwDk/logo-entership-no-background-white.png"
           alt="Entership Logo"
@@ -26,9 +26,9 @@ export default function HomePageContent() {
           <a href="#" className="hover:text-yellow-accent transition-colors">KURZY</a>
           <a href="#" className="hover:text-yellow-accent transition-colors">O NÁS</a>
           <a href="#" className="hover:text-yellow-accent transition-colors">KONTAKT</a>
-          <button className="bg-button-cream text-black px-6 py-2 rounded-xl font-medium hover:bg-yellow-100 transition-colors">
+          <a href="#available-dates" className="bg-button-cream text-black px-6 py-2 rounded-xl font-medium hover:bg-yellow-100 transition-colors">
             PŘIHLÁSIT SE
-          </button>
+          </a>
         </div>
       </nav>
 
@@ -44,9 +44,9 @@ export default function HomePageContent() {
             <p className="font-inter text-lg mb-8 max-w-md">
               AI už není nice-to-have. Nauč se ji používat tak, aby ti každý den šetřila čas i energii.
             </p>
-            <button className="bg-button-cream text-black px-8 py-4 rounded-xl font-inter font-semibold text-lg hover:bg-yellow-100 transition-colors">
+            <a href="#available-dates" className="inline-block bg-button-cream text-black px-8 py-4 rounded-xl font-inter font-semibold text-lg hover:bg-yellow-100 transition-colors">
               ZAČÍT HNED
-            </button>
+            </a>
           </div>
           <div className="relative flex justify-center lg:justify-end">
             {/* AI Illustration */}
@@ -284,9 +284,9 @@ export default function HomePageContent() {
             </div>
           </div>
           <div className="text-center mt-12">
-            <button className="bg-button-cream text-black px-8 py-4 rounded-xl font-inter font-semibold text-lg hover:bg-yellow-100 transition-colors">
+            <a href="#available-dates" className="inline-block bg-button-cream text-black px-8 py-4 rounded-xl font-inter font-semibold text-lg hover:bg-yellow-100 transition-colors">
               ZAČÍT HNED
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -358,38 +358,46 @@ export default function HomePageContent() {
               <div className="w-0 h-0 border-l-[20px] border-l-black border-y-[12px] border-y-transparent ml-1"></div>
             </button>
           </div>
-          <button className="bg-button-cream text-black px-12 py-6 rounded-xl font-inter font-bold text-xl hover:bg-yellow-100 transition-colors">
+          <a href="#available-dates" className="inline-block bg-button-cream text-black px-12 py-6 rounded-xl font-inter font-bold text-xl hover:bg-yellow-100 transition-colors">
             ZAČÍT HNED
-          </button>
+          </a>
         </div>
       </section>
-
-      {/* FAQ */}
-      <FAQSection />
 
       {/* Instructors Section - O LEKTORECH AI */}
       <section className="px-6 py-16 lg:px-12 bg-purple-main">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-foreground text-center mb-16 leading-normal-xl">
-            O lektorovi AI
+            Kurzem tě provede
           </h2>
-          <div className="flex justify-center max-w-4xl mx-auto">
+          <div className="flex justify-center max-w-5xl mx-auto">
             {/* Instructor 1 */}
-            <div className="bg-purple-light/20 border border-purple-light/30 rounded-lg overflow-hidden w-full md:w-96">
-              <div className="aspect-square bg-purple-light/30 flex items-center justify-center">
-                <div className="w-32 h-32 bg-purple-light/50 rounded-full"></div>
+            <div className="bg-button-cream border-0 rounded-lg overflow-hidden w-full flex flex-col md:flex-row">
+              <div className="w-full md:w-1/2 aspect-square md:aspect-auto relative">
+                <img 
+                  src="/petr.webp" 
+                  alt="Lektor Petr"
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <div className="p-6">
-                <h3 className="text-cream font-inter font-bold text-xl mb-2 leading-relaxed-xl">
+              <div className="w-full md:w-1/2 p-8 flex flex-col justify-center">
+                <h3 className="text-black font-inter font-bold text-2xl mb-2 leading-relaxed-xl">
                   Petr Glaser
                 </h3>
-                <p className="text-yellow-accent font-inter text-sm mb-4">
+                <p className="text-purple-main font-inter font-bold text-sm mb-2">
                   AI Specialist, Staff Software Engineer
                 </p>
-                <p className="font-inter text-sm leading-relaxed">
-                  Expert na umělou inteligenci s více než 7 lety zkušeností v oboru. 
-                  Pomohl desítkám studentů zorientovat se ve světě AI a využít její potenciál.
-                </p>
+                <a href="mailto:petr.glaser@naucme.it" className="text-black/80 font-inter text-sm mb-6 hover:text-purple-main transition-colors">
+                  petr.glaser@naucme.it
+                </a>
+                <div className="font-inter text-sm leading-relaxed space-y-4 text-black/90">
+                  <p>
+                    Fanatik AI a produktivity vývojářů. I tak je Petr označován (nejen) sám sebou, ale i jeho kolegy a přáteli. Jeho nadšení se probudilo dávno před hypem způsobeným ChatGPT. Prvního AI asistenta kódu používal už před covidem. Od té doby se mnohé změnilo.
+                  </p>
+                  <p>
+                    Petr bedlivě sleduje nástroje, které jsou k dispozici. Nepatří k těm, kteří ti nacpou do chřtánu 50 nástrojů, které ti změní život. Naopak doporučuje přesně to, co on sám používá. Méně je někdy více a s AI to platí dvojnásob.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -397,7 +405,7 @@ export default function HomePageContent() {
       </section>
 
       {/* Additional FAQ Section */}
-      <FAQSection title="FAQ" />
+      <FAQSection title="FAQ" variant="general" />
 
       {/* Footer */}
       <FooterSection />

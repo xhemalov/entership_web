@@ -9,7 +9,7 @@ export default function AvailableDatesSection() {
   const [isToggled, setIsToggled] = useState(false)
 
   return (
-    <section className="bg-purple-main px-6 py-16 lg:px-12">
+    <section id="available-dates" className="bg-purple-main px-6 py-16 lg:px-12">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-foreground text-center mb-16 leading-normal-xl">
           VOLNÉ TERMÍNY
@@ -208,7 +208,7 @@ export default function AvailableDatesSection() {
         </div>
 
         {/* First FAQ Section with toggle inside */}
-        <FAQSection isToggled={isToggled} setIsToggled={setIsToggled} showToggle={true} />
+        <FAQSection title="Co v balíčku najdeš?" isToggled={isToggled} setIsToggled={setIsToggled} showToggle={true} />
       </div>
     </section>
   )

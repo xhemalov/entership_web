@@ -16,6 +16,7 @@ interface FAQSectionProps {
   isToggled?: boolean;
   setIsToggled?: (value: boolean) => void;
   showToggle?: boolean;
+  variant?: 'course-details' | 'general';
 }
 
 // SVG Icons with purple main color
@@ -55,33 +56,56 @@ const ChatIcon = () => (
   </svg>
 )
 
-export default function FAQSection({ title = "Co tě čeká?", isToggled = false, setIsToggled, showToggle = false }: FAQSectionProps) {
+const UsersIcon = () => (
+  <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+    <circle cx="9" cy="7" r="4"></circle>
+    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+  </svg>
+)
+
+const CalendarIcon = () => (
+  <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+    <line x1="16" y1="2" x2="16" y2="6"></line>
+    <line x1="8" y1="2" x2="8" y2="6"></line>
+    <line x1="3" y1="10" x2="21" y2="10"></line>
+  </svg>
+)
+
+export default function FAQSection({ title = "Co tě čeká?", isToggled = false, setIsToggled, showToggle = false, variant = 'course-details' }: FAQSectionProps) {
   // KOHORTA content (isToggled = false)
   const kohortaFaqs = [
     {
       icon: <LightningIcon />,
-      question: "Rychlý start do AI světa",
-      answer: "Za 6-8 týdnů ovládneš nejmodernější AI nástroje a začneš je používat pro svou práci i osobní projekty."
+      question: "Jak bude probíhat celý program",
+      answer: "Kohorta jede 4–5 týdnů v jasném rytmu. Každý týden nový obsah, úkoly a společný progres. Žádné bloudění, žádné “co mám dělat dál?”. Máš jasný plán a crew, která jede s tebou."
     },
     {
       icon: <TargetIcon />,
       question: "Bez předchozích zkušeností",
-      answer: "Kurz je navržen pro úplné začátečníky. Začínáme od základů a postupně tě dovedeme k pokročilým technikám."
+      answer: "Všechno vysvětlujeme tak, že to pochopí i člověk, který AI viděl poprvé včera. Zero background? V pohodě. Kohorta tě podrží."
     },
     {
       icon: <ToolsIcon />,
-      question: "Praktické nástroje zdarma",
-      answer: "Naučíš se používat nejlepší AI nástroje, většina z nich je dostupná zdarma nebo má bezplatnou verzi."
-    },
-    {
-      icon: <TrophyIcon />,
-      question: "Oficiální certifikát",
-      answer: "Po dokončení získáš certifikát, který posílí tvé CV a LinkedIn profil v očích zaměstnavatelů."
+      question: "Co všechno dostaneš",
+      answer: "Praktická videa, úkoly, doporučené AI nástroje a bonusové věci, které dostávají jen členové Kohorty. Nic suchého - všechno rovnou použitelné"
     },
     {
       icon: <ChatIcon />,
+      question: "Podpora lektora a Q&A",
+      answer: "Jednou týdně Q&A, kde se můžeš zeptat na cokoliv. Lektor ti dá feedback, nasměruje tě a ušetří ti hodiny googlení. Jsi v dobrých rukou."
+    },
+    {
+      icon: <UsersIcon />,
       question: "Podpora komunity",
-      answer: "Přístup k exkluzivní komunitě studentů a přímá podpora od instruktorů. Nikdy nebudeš sám."
+      answer: "Máš přístup do společné skupiny na Discordu - sdílíme tam výsledky, ptáme se, podporujeme se a držíme si tempo. Je to malý, bezpečný vesmír, kde tě to prostě nakopne."
+    },
+    {
+      icon: <CalendarIcon />,
+      question: "Rituály a tempo",
+      answer: "Rituály jsou malé akce, které ti pomůžou držet krok — týdenní start, minichallenge, malá připomenutí. Nic násilného, ale sakra to funguje."
     }
   ];
 
@@ -90,31 +114,85 @@ export default function FAQSection({ title = "Co tě čeká?", isToggled = false
     {
       icon: <LightningIcon />,
       question: "Studuj vlastním tempem",
-      answer: "Přístup ke všem materiálům ihned. Studuj kdykoliv a odkudkoliv podle svého vlastního tempa."
+      answer: "Jedeš si absolutně svoje tempo. Ráno? Večer? O víkendu? Je to tvoje. Žádné termíny, žádný tlak, jen čistý self-pace."
     },
     {
       icon: <TargetIcon />,
       question: "Bez předchozích zkušeností",
-      answer: "Kurz je navržen pro úplné začátečníky. Začínáme od základů a postupně tě dovedeme k pokročilým technikám."
+      answer: "Všechno je krok-za-krokem a pochopitelné i pro úplné AI nováčky. Všechno ukazujeme tak, aby to zvládl každý."
     },
     {
       icon: <ToolsIcon />,
-      question: "Praktické nástroje zdarma",
-      answer: "Naučíš se používat nejlepší AI nástroje, většina z nich je dostupná zdarma nebo má bezplatnou verzi."
+      question: "Co získáš za materiály",
+      answer: "Všechna videa a praktické postupy, které si můžeš pouštět furt dokola. Kdykoliv, odkudkoliv. Flex = svoboda."
     },
     {
-      icon: <TrophyIcon />,
-      question: "Oficiální certifikát",
-      answer: "Po dokončení získáš certifikát, který posílí tvé CV a LinkedIn profil v očích zaměstnavatelů."
+      icon: <UsersIcon />,
+      question: "Pro koho je to ideální",
+      answer: "Pro lidi, kteří nepotřebují komunitu a jen chtějí kvalitní obsah bez interakcí. Introvert? Plný kalendář? Rychlý samostudium? Sem s tebou."
     },
     {
       icon: <ChatIcon />,
-      question: "Individuální konzultace",
-      answer: "Osobní podpora lektora a možnost individuálních konzultací pro maximální výsledky."
+      question: "Co není součástí",
+      answer: "Žádné Q&A, žádné konzultace, žádný Discord. Tohle je čistý solo run. Maximální klid, minimum rušení."
+    },
+    {
+      icon: <CalendarIcon />,
+      question: "Jak dlouho máš přístup",
+      answer: "Můžeš se kdykoliv vracet k videím a jet to znovu. Flex je maraton, ne sprint."
     }
   ];
 
-  const faqs = isToggled ? flexFaqs : kohortaFaqs;
+  // General FAQs
+  const generalFaqs = [
+    {
+      icon: <TargetIcon />,
+      question: "Musím mít zkušenosti s AI, abych to zvládl?",
+      answer: "Ne. Začínáme od úplného základu. Když umíš zapnout počítač, jsi ready."
+    },
+    {
+      icon: <LightningIcon />,
+      question: "Jaký je rozdíl mezi Kohortou a Flexem?",
+      answer: "Kohorta = vedená cesta, podpora lektora, Q&A a komunita. Flex = jedeš solo, svým tempem, bez termínů a bez interakcí."
+    },
+    {
+      icon: <CalendarIcon />,
+      question: "Kolik času mi kurz zabere?",
+      answer: "Stačí 2–3 hodiny týdně. Víc pomůže, míň taky jde - hlavní je pravidelnost."
+    },
+    {
+      icon: <ChatIcon />,
+      question: "Co když nestihnu lekci v Kohortě?",
+      answer: "Všechny Q&A i materiály jsou nahrané. Nic ti neuteče."
+    },
+    {
+      icon: <ToolsIcon />,
+      question: "Budu umět AI používat v práci?",
+      answer: "Jo. Kurz je praktický. Dostaneš konkrétní postupy, které využiješ hned první týden v práci."
+    },
+    {
+      icon: <TrophyIcon />,
+      question: "Co když jsem senior/profík - nebude to pro mě moc basic?",
+      answer: "Pro profíky máme pokročilejší tipy, hlubší postupy a smart techniky práce s AI. Na hlouposti tady čas neztrácíme."
+    },
+    {
+      icon: <UsersIcon />,
+      question: "Můžu kombinovat oba balíčky?",
+      answer: "Jasně - můžeš začít Flexem a kdykoliv přejít do další Kohorty, pokud chceš podporu a tempo."
+    },
+    {
+      icon: <LightningIcon />,
+      question: "Jak dlouho mám přístup k materiálům?",
+      answer: "Po celou dobu kurzu a ještě dál. Ke všemu se můžeš vracet."
+    },
+    {
+      icon: <ToolsIcon />,
+      question: "Jsou v kurzu placené nástroje?",
+      answer: "Všechno stavíme hlavně na nástrojích zdarma. Premium věci jsou jen volitelné. Přesto některé zdarma nástroje chtějí kartu."
+    }
+  ];
+
+  const faqs = variant === 'general' ? generalFaqs : (isToggled ? flexFaqs : kohortaFaqs);
 
   return (
     <section className="px-6 py-16 lg:px-12 bg-purple-main">
