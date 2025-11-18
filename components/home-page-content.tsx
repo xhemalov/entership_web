@@ -26,7 +26,7 @@ export default function HomePageContent() {
           <a href="#" className="hover:text-yellow-accent transition-colors">KURZY</a>
           <a href="#" className="hover:text-yellow-accent transition-colors">O NÁS</a>
           <a href="#" className="hover:text-yellow-accent transition-colors">KONTAKT</a>
-          <button className="bg-button-cream text-purple-main px-6 py-2 rounded-xl font-medium hover:bg-yellow-100 transition-colors">
+          <button className="bg-button-cream text-black px-6 py-2 rounded-xl font-medium hover:bg-yellow-100 transition-colors">
             PŘIHLÁSIT SE
           </button>
         </div>
@@ -36,15 +36,15 @@ export default function HomePageContent() {
       <section className="px-6 py-16 lg:px-12 lg:py-24 bg-purple-main">
         <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
           <div className="max-w-2xl">
-            <h1 className="text-4xl lg:text-6xl font-nasalization font-bold text-cream leading-relaxed-xl mb-6">
+            <h1 className="text-4xl lg:text-6xl font-nasalization font-bold text-foreground leading-relaxed-xl mb-6">
               AI ZÁKLADY:
               <br />
               POCHOP AI
             </h1>
-            <p className="text-purple-200 font-inter text-lg mb-8 max-w-md">
-              Objevte sílu umělé inteligence a naučte se ji využívat ve svůj prospěch
+            <p className="font-inter text-lg mb-8 max-w-md">
+              AI už není nice-to-have. Nauč se ji používat tak, aby ti každý den šetřila čas i energii.
             </p>
-            <button className="bg-button-cream text-purple-main px-8 py-4 rounded-xl font-inter font-semibold text-lg hover:bg-yellow-100 transition-colors">
+            <button className="bg-button-cream text-black px-8 py-4 rounded-xl font-inter font-semibold text-lg hover:bg-yellow-100 transition-colors">
               ZAČÍT HNED
             </button>
           </div>
@@ -64,47 +64,47 @@ export default function HomePageContent() {
       {/* Why Section */}
       <section className="px-6 py-16 lg:px-12">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-cream text-center mb-16 leading-normal-xl">
+          <h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-foreground text-center mb-16 leading-normal-xl">
             Proč by tě to mělo zajímat?
           </h2>
           <div className="grid lg:grid-cols-2 gap-12">
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
                 <div className="w-2 h-2 bg-yellow-accent rounded-full mt-3 flex-shrink-0"></div>
-                <p className="text-purple-100 font-inter">
-                  Umělá inteligence revolucionizuje způsob, jakým pracujeme a žijeme
+                <p className="font-inter">
+                  AI už není sci-fi. Je to běžný pracovní nástroj – a kdo ji neumí, maká zbytečně rukama.
                 </p>
               </div>
               <div className="flex items-start space-x-4">
                 <div className="w-2 h-2 bg-yellow-accent rounded-full mt-3 flex-shrink-0"></div>
-                <p className="text-purple-100 font-inter">
-                  Firmy hledají odborníky, kteří rozumí AI technologiím
+                <p className="font-inter">
+                  Naučíme tě AI používat chytře – ne jen otevřít ChatGPT a doufat v zázrak.
                 </p>
               </div>
               <div className="flex items-start space-x-4">
                 <div className="w-2 h-2 bg-yellow-accent rounded-full mt-3 flex-shrink-0"></div>
-                <p className="text-purple-100 font-inter">
-                  Možnost zvýšit produktivitu až o 300%
+                <p className="font-inter">
+                  Není to jen hračka pro ajťáky – používají ji markeťáci, projekťáci, designéři i mámy na mateřský.
                 </p>
               </div>
             </div>
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
                 <div className="w-2 h-2 bg-yellow-accent rounded-full mt-3 flex-shrink-0"></div>
-                <p className="text-purple-100 font-inter">
-                  Budoucnost patří těm, kdo se naučí AI využívat
+                <p className="font-inter">
+                  Ušetříš si rutinu a nudnou opakovačku. Místo toho budeš dělat práci, která má smysl.
                 </p>
               </div>
               <div className="flex items-start space-x-4">
                 <div className="w-2 h-2 bg-yellow-accent rounded-full mt-3 flex-shrink-0"></div>
-                <p className="text-purple-100 font-inter">
-                  Automatizace rutinních úkolů vám ušetří hodiny času
+                <p className="font-inter">
+                  Nebudeš lovit deset nejoblíbenějších promptů – naučíš se vytvářet vlastní, které fakt fungují.
                 </p>
               </div>
               <div className="flex items-start space-x-4">
                 <div className="w-2 h-2 bg-yellow-accent rounded-full mt-3 flex-shrink-0"></div>
-                <p className="text-purple-100 font-inter">
-                  Konkurenční výhoda na trhu práce
+                <p className="font-inter">
+                  A jo… AI je prostě zábava. Jakmile pochopíš, jak na ni, už ji neodložíš.
                 </p>
               </div>
             </div>
@@ -115,20 +115,20 @@ export default function HomePageContent() {
       {/* Interest Section */}
       <section className="px-6 py-16 lg:px-12 bg-purple-main">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-cream text-center mb-16 leading-normal-xl">
+          <h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-foreground text-center mb-16 leading-normal-xl">
             Co budeš potřebovat?
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { icon: "laptop", title: "Počítač nebo laptop", desc: "Windows, Mac nebo Linux s připojením k internetu" },
-              { icon: "globe", title: "Stabilní internet", desc: "Pro přístup k online nástrojům a platformám AI" },
-              { icon: "mail", title: "Email účet", desc: "Pro registraci do AI služeb a komunikaci" },
-              { icon: "brain", title: "Zvědavost", desc: "Otevřená mysl a chuť se učit nové věci" },
-              { icon: "clock", title: "2-3 hodiny týdně", desc: "Čas na studium a procvičování materiálů" },
-              { icon: "note", title: "Poznámkový blok", desc: "Pro zapisování důležitých poznatků a nápadů" },
-              { icon: "target", title: "Konkrétní cíl", desc: "Představa, jak chceš AI využívat ve své práci" },
-              { icon: "card", title: "Platební karta", desc: "Pro případné placené AI nástroje (volitelné)" },
-              { icon: "handshake", title: "Ochota sdílet", desc: "Aktivní účast v komunitě a diskuzích" }
+              { icon: "laptop", title: "Počítač nebo laptop", desc: "Notebook nebo PC. Mac, Windows, Linux… Entership nediskriminuje." },
+              { icon: "globe", title: "Stabilní připojení", desc: "AI bez internetu je jako programátor bez kávy → nikam to nevede." },
+              { icon: "mail", title: "Google účet", desc: "Budeš ho potřebovat pro některé nástroje a sdílené materiály." },
+              { icon: "brain", title: "Otevřenou hlavu", desc: "Budeš zkoušet nové postupy a bourat staré návyky." },
+              { icon: "clock", title: "2–3 hodiny týdně", desc: "Stačí málo, ale pravidelně. AI skill se buduje jako gym habits." },
+              { icon: "note", title: "Chuť se učit", desc: "AI ti toho hodně dá - ale potřebuješ chtít ji zkrotit." },
+              { icon: "target", title: "Konkrétní cíl", desc: "Ať víš, proč to děláš: zrychlení práce, nový skill, rekvalifikace… cokoliv." },
+              { icon: "card", title: "Platební kartu (volitelně)", desc: "Některé nástroje mají premium verze. Ne, netlačíme tě do nich." },
+              { icon: "handshake", title: "Odvahu zapojit se", desc: "Komunita ti pomůže víc než deset tutoriálů - stačí se ozvat." }
             ].map((item, index) => {
               const getIcon = (iconName: string) => {
                 switch (iconName) {
@@ -204,7 +204,7 @@ export default function HomePageContent() {
                     {getIcon(item.icon)}
                   </div>
                   <h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed-xl">{item.title}</h3>
-                  <p className="text-purple-200 font-inter">{item.desc}</p>
+                  <p className="font-inter">{item.desc}</p>
                 </div>
               );
             })}
@@ -215,8 +215,8 @@ export default function HomePageContent() {
       {/* Video Section */}
       <section className="px-6 py-16 lg:px-12">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-cream mb-8 leading-normal-xl">
-            VIDÍME, ŽE SE TI CHCE KOUKAT NA NĚJAKÉ...
+          <h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-foreground mb-8 leading-normal-xl">
+            Pojď se potkat s lektorem Petrem
           </h2>
           <div className="relative bg-purple-light/20 border border-purple-light/30 rounded-lg aspect-video flex items-center justify-center">
             <button className="w-20 h-20 bg-white rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors">
@@ -229,62 +229,62 @@ export default function HomePageContent() {
       {/* Process Section - 3 Steps */}
       <section className="px-6 py-16 lg:px-12 bg-purple-main">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-cream text-center mb-16 leading-normal-xl">
+          <h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-foreground text-center mb-16 leading-normal-xl">
             Témata kurzu
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="w-16 h-16 bg-yellow-accent rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-purple-main font-nasalization font-bold text-2xl">1</span>
+                <span className="text-black font-nasalization font-bold text-2xl">1</span>
               </div>
               <h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed-xl">Základy AI promptování</h3>
-              <p className="text-purple-200 font-inter">Naučte se efektivně komunikovat s AI modely</p>
+              <p className="font-inter">Naučte se efektivně komunikovat s AI modely</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-yellow-accent rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-purple-main font-nasalization font-bold text-2xl">2</span>
+                <span className="text-black font-nasalization font-bold text-2xl">2</span>
               </div>
               <h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed">Pokročilé techniky promptování</h3>
-              <p className="text-purple-200 font-inter">Zvládněte pokročilé strategie pro lepší výsledky</p>
+              <p className="font-inter">Zvládněte pokročilé strategie pro lepší výsledky</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-yellow-accent rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-purple-main font-nasalization font-bold text-2xl">3</span>
+                <span className="text-black font-nasalization font-bold text-2xl">3</span>
               </div>
               <h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed">Custom GPT</h3>
-              <p className="text-purple-200 font-inter">Vytvářejte vlastní AI asistenty na míru</p>
+              <p className="font-inter">Vytvářejte vlastní AI asistenty na míru</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-yellow-accent rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-purple-main font-nasalization font-bold text-2xl">4</span>
+                <span className="text-black font-nasalization font-bold text-2xl">4</span>
               </div>
               <h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed">Praktické využití Custom GPT actions</h3>
-              <p className="text-purple-200 font-inter">Integrujte AI do svých pracovních procesů</p>
+              <p className="font-inter">Integrujte AI do svých pracovních procesů</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-yellow-accent rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-purple-main font-nasalization font-bold text-2xl">5</span>
+                <span className="text-black font-nasalization font-bold text-2xl">5</span>
               </div>
               <h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed">AI studio na generování obrázků</h3>
-              <p className="text-purple-200 font-inter">Vytvářejte profesionální vizuály pomocí AI</p>
+              <p className="font-inter">Vytvářejte profesionální vizuály pomocí AI</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-yellow-accent rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-purple-main font-nasalization font-bold text-2xl">6</span>
+                <span className="text-black font-nasalization font-bold text-2xl">6</span>
               </div>
               <h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed">Deep research</h3>
-              <p className="text-purple-200 font-inter">Hloubkové analýzy a výzkum s AI</p>
+              <p className="font-inter">Hloubkové analýzy a výzkum s AI</p>
             </div>
             <div className="text-center md:col-start-2">
               <div className="w-16 h-16 bg-yellow-accent rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-purple-main font-nasalization font-bold text-2xl">7</span>
+                <span className="text-black font-nasalization font-bold text-2xl">7</span>
               </div>
               <h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed">GDPR, autorská práva, bezpečnost</h3>
-              <p className="text-purple-200 font-inter">Právní a bezpečnostní aspekty AI (okrajově)</p>
+              <p className="font-inter">Právní a bezpečnostní aspekty AI (okrajově)</p>
             </div>
           </div>
           <div className="text-center mt-12">
-            <button className="bg-button-cream text-purple-main px-8 py-4 rounded-xl font-inter font-semibold text-lg hover:bg-yellow-100 transition-colors">
+            <button className="bg-button-cream text-black px-8 py-4 rounded-xl font-inter font-semibold text-lg hover:bg-yellow-100 transition-colors">
               ZAČÍT HNED
             </button>
           </div>
@@ -294,7 +294,7 @@ export default function HomePageContent() {
       {/* Course Content Section */}
       <section className="bg-purple-main px-6 py-16 lg:px-12">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-cream text-center mb-16 leading-normal-xl">
+          <h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-foreground text-center mb-16 leading-normal-xl">
             Co je součástí kurzu
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
@@ -305,7 +305,7 @@ export default function HomePageContent() {
                 </svg>
               </div>
               <h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed-xl">Kompletní materiály</h3>
-              <p className="text-purple-200 font-inter">Všechny potřebné materiály pro studium AI</p>
+              <p className="font-inter">Všechny potřebné materiály pro studium AI</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-purple-light/20 border-2 border-yellow-accent rounded-lg mx-auto mb-4 flex items-center justify-center">
@@ -314,7 +314,7 @@ export default function HomePageContent() {
                 </svg>
               </div>
               <h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed">Video lekce</h3>
-              <p className="text-purple-200 font-inter">Praktické ukázky a vysvětlení</p>
+              <p className="font-inter">Praktické ukázky a vysvětlení</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-purple-light/20 border-2 border-yellow-accent rounded-lg mx-auto mb-4 flex items-center justify-center">
@@ -323,7 +323,7 @@ export default function HomePageContent() {
                 </svg>
               </div>
               <h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed">Podpora komunity</h3>
-              <p className="text-purple-200 font-inter">Přístup do exkluzivní skupiny</p>
+              <p className="font-inter">Přístup do exkluzivní skupiny</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-purple-light/20 border-2 border-yellow-accent rounded-lg mx-auto mb-4 flex items-center justify-center">
@@ -332,7 +332,7 @@ export default function HomePageContent() {
                 </svg>
               </div>
               <h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed">Certifikát</h3>
-              <p className="text-purple-200 font-inter">Oficiální potvrzení o absolvování</p>
+              <p className="font-inter">Oficiální potvrzení o absolvování</p>
             </div>
           </div>
         </div>
@@ -347,10 +347,10 @@ export default function HomePageContent() {
       {/* Final CTA Section */}
       <section className="px-6 py-16 lg:px-12">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-cream mb-6 leading-normal-xl">
+          <h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-foreground mb-6 leading-normal-xl">
             Chceš být připraven na svět?
           </h2>
-          <p className="text-purple-200 font-inter text-lg mb-8 max-w-2xl mx-auto">
+          <p className="font-inter text-lg mb-8 max-w-2xl mx-auto">
             Nezůstávejte pozadu. Začněte svou cestu k mistrovství v AI ještě dnes.
           </p>
           <div className="relative bg-purple-light/20 border border-purple-light/30 rounded-lg aspect-video flex items-center justify-center mb-8">
@@ -358,7 +358,7 @@ export default function HomePageContent() {
               <div className="w-0 h-0 border-l-[20px] border-l-black border-y-[12px] border-y-transparent ml-1"></div>
             </button>
           </div>
-          <button className="bg-button-cream text-purple-main px-12 py-6 rounded-xl font-inter font-bold text-xl hover:bg-yellow-100 transition-colors">
+          <button className="bg-button-cream text-black px-12 py-6 rounded-xl font-inter font-bold text-xl hover:bg-yellow-100 transition-colors">
             ZAČÍT HNED
           </button>
         </div>
@@ -370,7 +370,7 @@ export default function HomePageContent() {
       {/* Instructors Section - O LEKTORECH AI */}
       <section className="px-6 py-16 lg:px-12 bg-purple-main">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-cream text-center mb-16 leading-normal-xl">
+          <h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-foreground text-center mb-16 leading-normal-xl">
             O lektorovi AI
           </h2>
           <div className="flex justify-center max-w-4xl mx-auto">
@@ -386,7 +386,7 @@ export default function HomePageContent() {
                 <p className="text-yellow-accent font-inter text-sm mb-4">
                   AI Specialist, Staff Software Engineer
                 </p>
-                <p className="text-purple-200 font-inter text-sm leading-relaxed">
+                <p className="font-inter text-sm leading-relaxed">
                   Expert na umělou inteligenci s více než 7 lety zkušeností v oboru. 
                   Pomohl desítkám studentů zorientovat se ve světě AI a využít její potenciál.
                 </p>

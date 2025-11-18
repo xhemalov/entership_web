@@ -9,7 +9,7 @@ export default function TestimonialsSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left side - Testimonial */}
           <div className="space-y-8">
-            <h2 className="text-3xl lg:text-4xl font-nasalization font-bold text-cream leading-normal-xl">
+            <h2 className="text-3xl lg:text-4xl font-nasalization font-bold text-foreground leading-normal-xl">
               DŘÍVE JSEM BYL VE SVĚTĚ<br />
               IT ZTRACEN, ALE OD DOBY,<br />
               CO JSEM NA KURZECH NMIT,<br />
