@@ -205,7 +205,7 @@ export default function FAQSection({ title = "Co tě čeká?", isToggled = false
             <CourseToggle isToggled={isToggled} setIsToggled={setIsToggled} />
           </div>
         )}
-        <Accordion type="single" collapsible className="space-y-4">
+        <Accordion type="multiple" className="space-y-4">
           {faqs.map((faq, index) => (
             <AccordionItem 
               key={index} 
