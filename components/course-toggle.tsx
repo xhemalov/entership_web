@@ -13,7 +13,7 @@ export default function CourseToggle({ isToggled, setIsToggled }: CourseTogglePr
           onClick={() => setIsToggled(false)}
           className={`px-8 py-3 rounded-full font-inter font-semibold transition-all ${
             !isToggled
-              ? 'bg-yellow-accent text-purple-main'
+              ? 'bg-yellow-accent text-black'
               : 'text-cream hover:text-yellow-accent'
           }`}
         >
@@ -23,7 +23,7 @@ export default function CourseToggle({ isToggled, setIsToggled }: CourseTogglePr
           onClick={() => setIsToggled(true)}
           className={`px-8 py-3 rounded-full font-inter font-semibold transition-all ${
             isToggled
-              ? 'bg-yellow-accent text-purple-main'
+              ? 'bg-yellow-accent text-black'
               : 'text-cream hover:text-yellow-accent'
           }`}
         >

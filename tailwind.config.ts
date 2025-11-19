@@ -32,6 +32,7 @@ const config: Config = {
         'purple-200': '#D8B4FE',
         'yellow-accent': '#FDE047',
         'button-cream': '#F5F5DC',
+        'button-cream-hover': '#F0F0D2',
         'cream': '#FFF8E7',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
