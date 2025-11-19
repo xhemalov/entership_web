@@ -20,7 +20,7 @@ export default function AboutPageContent() {
         <div className="hidden md:flex items-center space-x-8 text-cream font-inter">
           <a href="/#available-dates" className="hover:text-yellow-accent transition-colors">KURZY</a>
           <a href="/o-nas" className="text-yellow-accent transition-colors">O NÁS</a>
-          <a href="#kontakt" className="hover:text-yellow-accent transition-colors">KONTAKT</a>
+          <a href="/kontakt" className="hover:text-yellow-accent transition-colors">KONTAKT</a>
           <a href="/#available-dates" className="bg-button-cream text-black px-6 py-2 rounded-xl font-medium hover:bg-yellow-100 transition-colors">
             PŘIHLÁSIT SE
           </a>
@@ -236,57 +236,18 @@ export default function AboutPageContent() {
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section id="kontakt" className="px-6 py-16 lg:px-12 bg-purple-main">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-foreground text-center mb-16 leading-normal-xl">
+      {/* Contact CTA Section */}
+      <section className="px-6 py-16 lg:px-12 bg-purple-main text-center">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-foreground mb-8 leading-normal-xl">
             Neváhejte, ať vám neujede vlak!
           </h2>
-
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
-            {/* Contact Form (Visual) */}
-            <div className="space-y-4">
-              <input type="text" placeholder="Jméno" className="w-full bg-[#FFFBEB]/15 border-2 border-cream/30 rounded-lg px-4 py-3 text-cream placeholder:text-cream/50 focus:border-yellow-accent focus:outline-none transition-colors" />
-              <input type="email" placeholder="E-mail" className="w-full bg-[#FFFBEB]/15 border-2 border-cream/30 rounded-lg px-4 py-3 text-cream placeholder:text-cream/50 focus:border-yellow-accent focus:outline-none transition-colors" />
-              <input type="text" placeholder="Předmět" className="w-full bg-[#FFFBEB]/15 border-2 border-cream/30 rounded-lg px-4 py-3 text-cream placeholder:text-cream/50 focus:border-yellow-accent focus:outline-none transition-colors" />
-              <textarea rows={5} placeholder="Zpráva..." className="w-full bg-[#FFFBEB]/15 border-2 border-cream/30 rounded-lg px-4 py-3 text-cream placeholder:text-cream/50 focus:border-yellow-accent focus:outline-none transition-colors"></textarea>
-              <button className="bg-button-cream text-black px-8 py-3 rounded-xl font-bold hover:bg-yellow-100 transition-colors w-full sm:w-auto">
-                ODESLAT
-              </button>
-            </div>
-
-            {/* Contact Info & Social Proof */}
-            <div className="bg-[#FFFBEB]/15 rounded-2xl p-8 border border-purple-light/20 h-full flex flex-col justify-between">
-              <div className="space-y-8">
-                <div>
-                  <h3 className="text-yellow-accent font-bold text-xl mb-2">Napiš nám přímo</h3>
-                  <a href="mailto:info@entership.cz" className="text-2xl font-inter text-white hover:text-yellow-accent transition-colors">info@entership.cz</a>
-                </div>
-                
-                <div>
-                  <h3 className="text-yellow-accent font-bold text-xl mb-2">Komunita</h3>
-                  <p className="text-cream/80 mb-4">Jsme aktivní na Discordu. Přidej se k nám a ptej se na cokoliv.</p>
-                  <a href="#" className="inline-flex items-center gap-2 text-white border-b border-yellow-accent pb-1 hover:text-yellow-accent transition-colors">
-                    <Users className="w-5 h-5" />
-                    Připojit se na Discord
-                  </a>
-                </div>
-              </div>
-
-              <div className="mt-12 pt-8 border-t border-purple-light/20 flex gap-6 opacity-60">
-                 {/* Social Proof Badges Placeholders */}
-                 <div className="w-12 h-12 bg-cream/20 rounded-full flex items-center justify-center">
-                    <Shield className="w-6 h-6" />
-                 </div>
-                 <div className="w-12 h-12 bg-cream/20 rounded-full flex items-center justify-center">
-                    <Lightbulb className="w-6 h-6" />
-                 </div>
-                 <div className="w-12 h-12 bg-cream/20 rounded-full flex items-center justify-center">
-                    <Brain className="w-6 h-6" />
-                 </div>
-              </div>
-            </div>
-          </div>
+          <p className="font-inter text-lg mb-8 text-cream/90">
+            Máte dotaz nebo se chcete poradit? Jsme tu pro vás.
+          </p>
+          <a href="/kontakt" className="inline-block bg-button-cream text-black px-8 py-4 rounded-xl font-inter font-bold text-lg hover:bg-yellow-100 transition-colors">
+            KONTAKTOVAT NÁS
+          </a>
         </div>
       </section>
 
