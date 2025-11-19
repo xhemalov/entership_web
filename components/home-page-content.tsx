@@ -65,11 +65,10 @@ export default function HomePageContent() {
 						</a>
 					</div>
 					<div className="relative flex justify-center lg:justify-end">
-						{/* AI Illustration */}
 						<div className="rounded-lg overflow-visible">
 							<img
-								src="https://assets.macaly-user-data.dev/cdn-cgi/image/format=webp,width=2000,height=2000,fit=scale-down,quality=90,anim=true/h78douel905nwuxnwh8o3ggu/fs3w9kis8argxhrbeysyrfjn/0SslSjdqUNkwCOgRZ9me2/frame-6.png"
-								alt="AI Illustration"
+								src="/Frame 6.svg"
+								alt="Laptop with illustration of our courses"
 								className="w-[700px] md:w-[900px] lg:w-[1100px] xl:w-[1300px] h-auto object-contain drop-shadow-2xl"
 							/>
 						</div>

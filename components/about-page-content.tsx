@@ -1,16 +1,14 @@
 "use client";
 
 import FooterSection from "@/components/footer-section";
-import TestimonialsSection from "@/components/testimonials-section";
+import TestimonialsCarousel from "@/components/testimonials-carousel";
 import {
-	ArrowRight,
 	Brain,
 	Coffee,
 	Cpu,
 	Heart,
 	Lightbulb,
 	Rocket,
-	Shield,
 	Smile,
 	Users,
 	Zap,
@@ -82,7 +80,7 @@ export default function AboutPageContent() {
 							</div>
 						</div>
 						{/* Decorative elements matching design vibe */}
-						<div className="absolute top-0 right-0 w-full h-full bg-purple-light/20 blur-3xl rounded-full -z-10"></div>
+						<div className="absolute top-0 right-0 w-full h-full bg-purple-light/20 blur-3xl rounded-full -z-10" />
 					</div>
 				</div>
 			</section>
@@ -277,7 +275,6 @@ export default function AboutPageContent() {
 				</div>
 			</section>
 
-			{/* Team Section */}
 			<section className="px-6 py-16 lg:px-12 bg-purple-main">
 				<div className="max-w-6xl mx-auto">
 					<h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-foreground text-center mb-16 leading-normal-xl">
@@ -285,7 +282,6 @@ export default function AboutPageContent() {
 					</h2>
 
 					<div className="grid md:grid-cols-3 gap-8">
-						{/* Petr */}
 						<div className="group">
 							<div className="aspect-square rounded-2xl overflow-hidden mb-6 border-2 border-transparent group-hover:border-yellow-accent transition-all">
 								<img
@@ -306,10 +302,13 @@ export default function AboutPageContent() {
 							</p>
 						</div>
 
-						{/* Pavel (Placeholder) */}
 						<div className="group">
 							<div className="aspect-square bg-purple-light/20 rounded-2xl overflow-hidden mb-6 border-2 border-transparent group-hover:border-yellow-accent transition-all flex items-center justify-center">
-								<Users className="w-20 h-20 text-purple-light/40" />
+								<img
+									src="/pavel.jpeg"
+									alt="Pavel Koudelka"
+									className="w-full h-full object-cover"
+								/>{" "}
 							</div>
 							<h3 className="text-2xl font-bold font-inter text-white mb-1">
 								Pavel
@@ -344,7 +343,7 @@ export default function AboutPageContent() {
 			</section>
 
 			{/* Testimonials (Reused) */}
-			<TestimonialsSection />
+			<TestimonialsCarousel />
 
 			{/* CTA Block */}
 			<section className="px-6 py-16 lg:px-12">
@@ -373,10 +372,10 @@ export default function AboutPageContent() {
 			<section className="px-6 py-16 lg:px-12 bg-purple-main text-center">
 				<div className="max-w-4xl mx-auto">
 					<h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-foreground mb-8 leading-normal-xl">
-						Neváhejte, ať vám neujede vlak!
+						Neváhej, ať ti neujede vlak!
 					</h2>
 					<p className="font-inter text-lg mb-8 text-cream/90">
-						Máte dotaz nebo se chcete poradit? Jsme tu pro vás.
+						Máš dotaz nebo se chceš poradit? Jsme tu pro tebe.
 					</p>
 					<a
 						href="/kontakt"
