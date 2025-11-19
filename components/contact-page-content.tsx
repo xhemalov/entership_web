@@ -145,17 +145,16 @@ export default function ContactPageContent() {
 				</div>
 			</section>
 
-			{/* Email Section */}
 			<section className="px-6 pb-16 lg:px-12 bg-purple-main">
 				<div className="max-w-4xl mx-auto">
-					<div className="bg-[#FFFBEB]/15 border border-white rounded-lg p-12 text-center">
-						<div className="w-16 h-16 bg-yellow-accent rounded-full flex items-center justify-center mx-auto mb-6">
+					<div className="bg-[#FFFBEB]/15 border border-white rounded-lg p-12 text-center flex flex-col gap-4">
+						<div className="w-16 h-16 bg-yellow-accent rounded-full flex items-center justify-center mx-auto">
 							<Mail className="w-8 h-8 text-black" />
 						</div>
-						<h2 className="text-3xl font-nasalization font-bold text-white mb-4">
+						<h2 className="text-3xl font-nasalization font-bold text-white">
 							Email
 						</h2>
-						<p className="font-inter text-cream/80 mb-6">
+						<p className="font-inter text-cream/80">
 							Na dotazy, spolupráce i partnerships:
 						</p>
 						<a
@@ -164,6 +163,9 @@ export default function ContactPageContent() {
 						>
 							hello@entership.cz
 						</a>
+						<p className="font-inter text-cream/80">
+							PS: Na Discordu odpovídáme rychleji!
+						</p>
 					</div>
 				</div>
 			</section>

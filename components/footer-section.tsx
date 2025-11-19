@@ -8,12 +8,13 @@ export default function FooterSection() {
 			<div className="max-w-6xl mx-auto">
 				<div className="grid md:grid-cols-3 gap-8 mb-12">
 					<div>
-						<h3 className="text-foreground font-nasalization font-bold text-xl mb-6 leading-normal-xl">
-							ENTERSHIP
-						</h3>
+						<img
+							src="https://assets.macaly-user-data.dev/cdn-cgi/image/format=webp,width=2000,height=2000,fit=scale-down,quality=90,anim=true/h78douel905nwuxnwh8o3ggu/fs3w9kis8argxhrbeysyrfjn/bHLqutq0N2XjQ9sEPOwDk/logo-entership-no-background-white.png"
+							alt="Entership Logo"
+							className="h-12 w-auto mb-6"
+						/>
 						<p className="font-inter text-sm leading-relaxed">
-							Staň se expertem na umělou inteligenci a získej konkurenční výhodu
-							v digitálním světě.
+							Mise pro všechny, kdo chtějí letět rychleji než tech svět.
 						</p>
 					</div>
 					<div>

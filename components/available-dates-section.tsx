@@ -9,11 +9,11 @@ export default function AvailableDatesSection() {
 	return (
 		<section
 			id="available-dates"
-			className="bg-purple-main px-6 py-16 lg:px-12"
+			className="bg-purple-main px-6 py-16 lg:px-12 scroll-mt-24"
 		>
 			<div className="max-w-4xl mx-auto">
-				<h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-foreground text-center mb-16 leading-normal-xl">
-					VOLNÉ TERMÍNY
+				<h2 className="text-3xl uppercase lg:text-5xl font-nasalization font-bold text-foreground text-center mb-16 leading-normal-xl">
+					Volné termíny
 				</h2>
 
 				<div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto mb-12">

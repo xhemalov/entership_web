@@ -1,6 +1,3 @@
-// Server component shell for the homepage content
-// (interactive parts are isolated into client components)
-
 import TestimonialsCarousel from "@/components/testimonials-carousel";
 import FAQSection from "@/components/faq-section";
 import FooterSection from "@/components/footer-section";
@@ -9,7 +6,6 @@ import AvailableDatesSection from "@/components/available-dates-section";
 export default function HomePageContent() {
 	return (
 		<div className="min-h-screen bg-purple-main text-cream">
-			{/* Navigation */}
 			<nav className="sticky top-0 z-50 flex items-center justify-between px-6 py-4 lg:px-12 bg-purple-main border-b border-purple-light/10">
 				<img
 					src="https://assets.macaly-user-data.dev/cdn-cgi/image/format=webp,width=2000,height=2000,fit=scale-down,quality=90,anim=true/h78douel905nwuxnwh8o3ggu/fs3w9kis8argxhrbeysyrfjn/bHLqutq0N2XjQ9sEPOwDk/logo-entership-no-background-white.png"
@@ -36,7 +32,7 @@ export default function HomePageContent() {
 						KONTAKT
 					</a>
 					<a
-						href="#available-dates"
+						href="/#available-dates"
 						className="bg-button-cream text-black px-6 py-2 rounded-xl font-medium hover:bg-yellow-100 transition-colors"
 					>
 						PŘIHLÁSIT SE
@@ -76,7 +72,6 @@ export default function HomePageContent() {
 				</div>
 			</section>
 
-			{/* Why Section */}
 			<section className="px-6 py-16 lg:px-12">
 				<div className="max-w-6xl mx-auto">
 					<h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-foreground text-center mb-16 leading-normal-xl">
@@ -133,7 +128,6 @@ export default function HomePageContent() {
 				</div>
 			</section>
 
-			{/* Interest Section */}
 			<section className="px-6 py-16 lg:px-12 bg-purple-main">
 				<div className="max-w-6xl mx-auto">
 					<h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-foreground text-center mb-16 leading-normal-xl">
@@ -164,12 +158,12 @@ export default function HomePageContent() {
 							{
 								icon: "clock",
 								title: "2–3 hodiny týdně",
-								desc: "Stačí málo, ale pravidelně. AI skill se buduje jako gym habits.",
+								desc: "Stačí málo, ale pravidelně. AI je hlavně o vybudování mindsetu.",
 							},
 							{
 								icon: "note",
 								title: "Chuť se učit",
-								desc: "AI ti toho hodně dá - ale potřebuješ chtít ji zkrotit.",
+								desc: "AI ti toho hodně dá - ale nejdřív ji potřebuješ zkrotit.",
 							},
 							{
 								icon: "target",
@@ -368,7 +362,6 @@ export default function HomePageContent() {
 				</div>
 			</section>
 
-			{/* Video Section */}
 			<section className="px-6 py-16 lg:px-12">
 				<div className="max-w-4xl mx-auto text-center">
 					<h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-foreground mb-8 leading-normal-xl">
@@ -382,7 +375,6 @@ export default function HomePageContent() {
 				</div>
 			</section>
 
-			{/* Process Section - 3 Steps */}
 			<section className="px-6 py-16 lg:px-12 bg-purple-main">
 				<div className="max-w-6xl mx-auto">
 					<h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-foreground text-center mb-16 leading-normal-xl">
@@ -395,7 +387,7 @@ export default function HomePageContent() {
 									1
 								</span>
 							</div>
-							<h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed-xl">
+							<h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed min-h-[60px] flex items-center justify-center">
 								Techniky promptování
 							</h3>
 							<p className="font-inter">Od základů až po pokročilé prompty</p>
@@ -406,7 +398,7 @@ export default function HomePageContent() {
 									2
 								</span>
 							</div>
-							<h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed">
+							<h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed min-h-[60px] flex items-center justify-center">
 								Vychytávky v chatovém rozhraní
 							</h3>
 							<p className="font-inter">
@@ -419,7 +411,7 @@ export default function HomePageContent() {
 									3
 								</span>
 							</div>
-							<h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed">
+							<h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed min-h-[60px] flex items-center justify-center">
 								Custom GPT
 							</h3>
 							<p className="font-inter">
@@ -432,7 +424,7 @@ export default function HomePageContent() {
 									4
 								</span>
 							</div>
-							<h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed">
+							<h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed min-h-[60px] flex items-center justify-center">
 								Praktické využití Custom GPT actions
 							</h3>
 							<p className="font-inter">
@@ -445,7 +437,7 @@ export default function HomePageContent() {
 									5
 								</span>
 							</div>
-							<h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed">
+							<h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed min-h-[60px] flex items-center justify-center">
 								Deep research
 							</h3>
 							<p className="font-inter">Hloubkové analýzy a výzkum s AI</p>
@@ -456,7 +448,7 @@ export default function HomePageContent() {
 									6
 								</span>
 							</div>
-							<h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed">
+							<h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed min-h-[60px] flex items-center justify-center">
 								GDPR, autorská práva, bezpečnost
 							</h3>
 							<p className="font-inter">
@@ -475,21 +467,17 @@ export default function HomePageContent() {
 				</div>
 			</section>
 
-			{/* Available Dates Section - extracted into client component for interactivity */}
 			<AvailableDatesSection />
 
-			{/* Testimonials */}
 			<TestimonialsCarousel />
 
-			{/* Final CTA Section */}
 			<section className="px-6 py-16 lg:px-12">
 				<div className="max-w-4xl mx-auto text-center">
 					<h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-foreground mb-6 leading-normal-xl">
 						Chceš být připraven na svět?
 					</h2>
 					<p className="font-inter text-lg mb-8 max-w-2xl mx-auto">
-						Nezůstávejte pozadu. Začněte svou cestu k mistrovství v AI ještě
-						dnes.
+						Nezůstávej pozadu. Začni svou cestu k mistrovství v AI ještě dnes.
 					</p>
 					<div className="relative bg-purple-light/20 border border-purple-light/30 rounded-lg aspect-video flex items-center justify-center mb-8">
 						<button className="w-20 h-20 bg-white rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors">
@@ -505,14 +493,12 @@ export default function HomePageContent() {
 				</div>
 			</section>
 
-			{/* Instructors Section - O LEKTORECH AI */}
 			<section className="px-6 py-16 lg:px-12 bg-purple-main">
 				<div className="max-w-6xl mx-auto">
 					<h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-foreground text-center mb-16 leading-normal-xl">
 						Kurzem tě provede
 					</h2>
 					<div className="flex justify-center max-w-5xl mx-auto">
-						{/* Instructor 1 */}
 						<div className="bg-button-cream border-0 rounded-lg overflow-hidden w-full flex flex-col md:flex-row">
 							<div className="w-full md:w-1/2 aspect-square md:aspect-auto relative">
 								<img
@@ -526,13 +512,13 @@ export default function HomePageContent() {
 									Petr Glaser
 								</h3>
 								<p className="text-purple-main font-inter font-bold text-sm mb-2">
-									AI Specialist, Staff Software Engineer
+									Fanatik AI, Staff Software Engineer
 								</p>
 								<a
-									href="mailto:petr.glaser@naucme.it"
+									href="mailto:petr.glaser@entership.cz"
 									className="text-black/80 font-inter text-sm mb-6 hover:text-purple-main transition-colors"
 								>
-									petr.glaser@naucme.it
+									petr.glaser@entership.cz
 								</a>
 								<div className="font-inter text-sm leading-relaxed space-y-4 text-black/90">
 									<p>
@@ -555,10 +541,8 @@ export default function HomePageContent() {
 				</div>
 			</section>
 
-			{/* Additional FAQ Section */}
 			<FAQSection title="FAQ" variant="general" />
 
-			{/* Footer */}
 			<FooterSection />
 		</div>
 	);

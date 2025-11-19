@@ -140,7 +140,7 @@ export default function FAQSection({
 			icon: <LightningIcon />,
 			question: "Jak bude probíhat celý program",
 			answer:
-				"Kohorta jede 4–5 týdnů v jasném rytmu. Každý týden nový obsah, úkoly a společný progres. Žádné bloudění, žádné “co mám dělat dál?”. Máš jasný plán a crew, která jede s tebou.",
+				"Kohorta jede 4–5 týdnů v jasném rytmu. Každý týden nový obsah, úkoly a společný progres. Žádné bloudění, žádné “co mám dělat dál?”. Máš jasný plán a crew, která letí s tebou.",
 		},
 		{
 			icon: <TargetIcon />,
@@ -152,7 +152,7 @@ export default function FAQSection({
 			icon: <ToolsIcon />,
 			question: "Co všechno dostaneš",
 			answer:
-				"Praktická videa, úkoly, doporučené AI nástroje a bonusové věci, které dostávají jen členové Kohorty. Nic suchého - všechno rovnou použitelné",
+				"Praktická videa, úkoly, doporučené AI nástroje a bonusové věci, které dostávají jen členové Kohorty. Nic suchého - všechno rovnou použitelné.",
 		},
 		{
 			icon: <ChatIcon />,
@@ -174,7 +174,6 @@ export default function FAQSection({
 		},
 	];
 
-	// FLEX content (isToggled = true)
 	const flexFaqs = [
 		{
 			icon: <LightningIcon />,
@@ -202,9 +201,9 @@ export default function FAQSection({
 		},
 		{
 			icon: <ChatIcon />,
-			question: "Co není součástí",
+			question: "Absolutní klid - žádný tlak",
 			answer:
-				"Žádné Q&A, žádné konzultace, žádný Discord. Tohle je čistý solo run. Maximální klid, minimum rušení.",
+				"Maximální klid, minimum rušení. Žádné Q&A, žádné konzultace. Tohle je čistý solo run. Když cokoliv potřebuješ, ptej se ve veřejné sekci Discordu.",
 		},
 		{
 			icon: <CalendarIcon />,
@@ -214,7 +213,6 @@ export default function FAQSection({
 		},
 	];
 
-	// General FAQs
 	const generalFaqs = [
 		{
 			icon: <TargetIcon />,
@@ -237,7 +235,7 @@ export default function FAQSection({
 		{
 			icon: <ChatIcon />,
 			question: "Co když nestihnu lekci v Kohortě?",
-			answer: "Všechny Q&A i materiály jsou nahrané. Nic ti neuteče.",
+			answer: "Všechny Q&A i materiály jsou nahrávané. Nic ti neuteče.",
 		},
 		{
 			icon: <ToolsIcon />,
@@ -255,7 +253,7 @@ export default function FAQSection({
 			icon: <UsersIcon />,
 			question: "Můžu kombinovat oba balíčky?",
 			answer:
-				"Jasně - můžeš začít Flexem a kdykoliv přejít do další Kohorty, pokud chceš podporu a tempo.",
+				"Jasně - můžeš začít Flexem a kdykoliv přejít do další Kohorty, pokud zjistíš, že chceš/potřebuješ podporu a tempo.",
 		},
 		{
 			icon: <LightningIcon />,
@@ -266,7 +264,7 @@ export default function FAQSection({
 			icon: <ToolsIcon />,
 			question: "Jsou v kurzu placené nástroje?",
 			answer:
-				"Všechno stavíme hlavně na nástrojích zdarma. Premium věci jsou jen volitelné. Přesto některé zdarma nástroje chtějí kartu.",
+				"Většinu stavíme na nástrojích zdarma. Premium věci jsou volitelné, ale fakt bodnou. Přesto některé zdarma nástroje chtějí kartu.",
 		},
 	];
 
