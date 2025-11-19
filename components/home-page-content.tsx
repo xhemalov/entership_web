@@ -22,10 +22,9 @@ export default function HomePageContent() {
           className="h-12 w-auto"
         />
         <div className="hidden md:flex items-center space-x-8 text-cream font-inter">
-          <a href="#" className="hover:text-yellow-accent transition-colors">DOMŮ</a>
-          <a href="#" className="hover:text-yellow-accent transition-colors">KURZY</a>
-          <a href="#" className="hover:text-yellow-accent transition-colors">O NÁS</a>
-          <a href="#" className="hover:text-yellow-accent transition-colors">KONTAKT</a>
+          <a href="#available-dates" className="hover:text-yellow-accent transition-colors">KURZY</a>
+          <a href="/o-nas" className="hover:text-yellow-accent transition-colors">O NÁS</a>
+          <a href="/kontakt" className="hover:text-yellow-accent transition-colors">KONTAKT</a>
           <a href="#available-dates" className="bg-button-cream text-black px-6 py-2 rounded-xl font-medium hover:bg-yellow-100 transition-colors">
             PŘIHLÁSIT SE
           </a>

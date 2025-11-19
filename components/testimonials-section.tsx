@@ -18,7 +18,7 @@ export default function TestimonialsSection() {
             
             {/* Navigation and customer info */}
             <div className="flex items-center justify-between gap-8">
-              <button className="w-12 h-12 bg-purple-light/20 border border-purple-light/30 rounded-lg flex items-center justify-center text-cream hover:bg-purple-light/30 transition-colors">
+              <button className="w-12 h-12 bg-[#FFFBEB]/15 border border-purple-light/30 rounded-lg flex items-center justify-center text-cream hover:bg-purple-light/30 transition-colors">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
                 </svg>
@@ -37,7 +37,7 @@ export default function TestimonialsSection() {
                 </div>
               </div>
               
-              <button className="w-12 h-12 bg-purple-light/20 border border-purple-light/30 rounded-lg flex items-center justify-center text-cream hover:bg-purple-light/30 transition-colors">
+              <button className="w-12 h-12 bg-[#FFFBEB]/15 border border-purple-light/30 rounded-lg flex items-center justify-center text-cream hover:bg-purple-light/30 transition-colors">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
