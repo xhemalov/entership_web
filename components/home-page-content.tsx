@@ -1,7 +1,7 @@
 // Server component shell for the homepage content
 // (interactive parts are isolated into client components)
 
-import TestimonialsSection from "@/components/testimonials-section";
+import TestimonialsCarousel from "@/components/testimonials-carousel";
 import FAQSection from "@/components/faq-section";
 import FooterSection from "@/components/footer-section";
 import AvailableDatesSection from "@/components/available-dates-section";
@@ -480,7 +480,7 @@ export default function HomePageContent() {
 			<AvailableDatesSection />
 
 			{/* Testimonials */}
-			<TestimonialsSection />
+			<TestimonialsCarousel />
 
 			{/* Final CTA Section */}
 			<section className="px-6 py-16 lg:px-12">
