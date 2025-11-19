@@ -61,150 +61,166 @@ export default function AvailableDatesSection() {
 							</div>
 
 							{/* Feature list with checkmarks */}
-							<div className="text-cream font-inter text-sm space-y-3 mb-8 flex-grow">
-								<div className="flex items-center justify-center gap-2">
-									<svg
-										className="w-5 h-5 text-yellow-accent flex-shrink-0"
-										fill="none"
-										stroke="currentColor"
-										viewBox="0 0 24 24"
-										strokeWidth={2.5}
-									>
-										<path
-											strokeLinecap="round"
-											strokeLinejoin="round"
-											d="M5 13l4 4L19 7"
-										/>
-									</svg>
-									<span>Start 12. 1. 2026</span>
-								</div>
-								<div className="flex items-center justify-center gap-2">
-									<svg
-										className="w-5 h-5 text-yellow-accent flex-shrink-0"
-										fill="none"
-										stroke="currentColor"
-										viewBox="0 0 24 24"
-										strokeWidth={2.5}
-									>
-										<path
-											strokeLinecap="round"
-											strokeLinejoin="round"
-											d="M5 13l4 4L19 7"
-										/>
-									</svg>
-									<span>Přístup ke všem lekcím a videím</span>
-								</div>
-								<div className="flex items-center justify-center gap-2">
-									<svg
-										className="w-5 h-5 text-yellow-accent flex-shrink-0"
-										fill="none"
-										stroke="currentColor"
-										viewBox="0 0 24 24"
-										strokeWidth={2.5}
-									>
-										<path
-											strokeLinecap="round"
-											strokeLinejoin="round"
-											d="M5 13l4 4L19 7"
-										/>
-									</svg>
-									<span>Osobní podpora lektora</span>
-								</div>
-								<div className="flex items-center justify-center gap-2">
-									<svg
-										className="w-5 h-5 text-yellow-accent flex-shrink-0"
-										fill="none"
-										stroke="currentColor"
-										viewBox="0 0 24 24"
-										strokeWidth={2.5}
-									>
-										<path
-											strokeLinecap="round"
-											strokeLinejoin="round"
-											d="M5 13l4 4L19 7"
-										/>
-									</svg>
-									<span>1× týdně Q&A (nahrávané)</span>
-								</div>
-								<div className="flex items-center justify-center gap-2">
-									<svg
-										className="w-5 h-5 text-yellow-accent flex-shrink-0"
-										fill="none"
-										stroke="currentColor"
-										viewBox="0 0 24 24"
-										strokeWidth={2.5}
-									>
-										<path
-											strokeLinecap="round"
-											strokeLinejoin="round"
-											d="M5 13l4 4L19 7"
-										/>
-									</svg>
-									<span>4–5 týdnů praktického vedení</span>
-								</div>
-								<div className="flex items-center justify-center gap-2">
-									<svg
-										className="w-5 h-5 text-yellow-accent flex-shrink-0"
-										fill="none"
-										stroke="currentColor"
-										viewBox="0 0 24 24"
-										strokeWidth={2.5}
-									>
-										<path
-											strokeLinecap="round"
-											strokeLinejoin="round"
-											d="M5 13l4 4L19 7"
-										/>
-									</svg>
-									<span>Vlastní Discord skupina</span>
-								</div>
-								<div className="flex items-center justify-center gap-2">
-									<svg
-										className="w-5 h-5 text-yellow-accent flex-shrink-0"
-										fill="none"
-										stroke="currentColor"
-										viewBox="0 0 24 24"
-										strokeWidth={2.5}
-									>
-										<path
-											strokeLinecap="round"
-											strokeLinejoin="round"
-											d="M5 13l4 4L19 7"
-										/>
-									</svg>
-									<span>Rituály & týdenní úkoly</span>
-								</div>
-								<div className="flex items-center justify-center gap-2">
-									<svg
-										className="w-5 h-5 text-yellow-accent flex-shrink-0"
-										fill="none"
-										stroke="currentColor"
-										viewBox="0 0 24 24"
-										strokeWidth={2.5}
-									>
-										<path
-											strokeLinecap="round"
-											strokeLinejoin="round"
-											d="M5 13l4 4L19 7"
-										/>
-									</svg>
-									<span>Aktuality a AI novinky e-mailem</span>
-								</div>
-								<div className="flex items-center justify-center gap-2">
-									<svg
-										className="w-5 h-5 text-yellow-accent flex-shrink-0"
-										fill="none"
-										stroke="currentColor"
-										viewBox="0 0 24 24"
-										strokeWidth={2.5}
-									>
-										<path
-											strokeLinecap="round"
-											strokeLinejoin="round"
-											d="M5 13l4 4L19 7"
-										/>
-									</svg>
-									<span>Networking podle kapacity skupiny</span>
+							<div className="text-cream font-inter text-sm mb-8 flex-grow flex flex-col items-center">
+								<div className="inline-block text-left space-y-3">
+									<div className="flex items-start gap-3">
+										<svg
+											className="w-5 h-5 text-yellow-accent flex-shrink-0"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+											strokeWidth={2.5}
+										>
+											<path
+												strokeLinecap="round"
+												strokeLinejoin="round"
+												d="M5 13l4 4L19 7"
+											/>
+										</svg>
+										<span className="text-balance">Start 12. 1. 2026</span>
+									</div>
+									<div className="flex items-start gap-3">
+										<svg
+											className="w-5 h-5 text-yellow-accent flex-shrink-0"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+											strokeWidth={2.5}
+										>
+											<path
+												strokeLinecap="round"
+												strokeLinejoin="round"
+												d="M5 13l4 4L19 7"
+											/>
+										</svg>
+										<span className="text-balance">
+											Přístup ke všem lekcím a videím
+										</span>
+									</div>
+									<div className="flex items-start gap-3">
+										<svg
+											className="w-5 h-5 text-yellow-accent flex-shrink-0"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+											strokeWidth={2.5}
+										>
+											<path
+												strokeLinecap="round"
+												strokeLinejoin="round"
+												d="M5 13l4 4L19 7"
+											/>
+										</svg>
+										<span className="text-balance">Osobní podpora lektora</span>
+									</div>
+									<div className="flex items-start gap-3">
+										<svg
+											className="w-5 h-5 text-yellow-accent flex-shrink-0"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+											strokeWidth={2.5}
+										>
+											<path
+												strokeLinecap="round"
+												strokeLinejoin="round"
+												d="M5 13l4 4L19 7"
+											/>
+										</svg>
+										<span className="text-balance">
+											1× týdně Q&A (nahrávané)
+										</span>
+									</div>
+									<div className="flex items-start gap-3">
+										<svg
+											className="w-5 h-5 text-yellow-accent flex-shrink-0"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+											strokeWidth={2.5}
+										>
+											<path
+												strokeLinecap="round"
+												strokeLinejoin="round"
+												d="M5 13l4 4L19 7"
+											/>
+										</svg>
+										<span className="text-balance">
+											4–5 týdnů praktického vedení
+										</span>
+									</div>
+									<div className="flex items-start gap-3">
+										<svg
+											className="w-5 h-5 text-yellow-accent flex-shrink-0"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+											strokeWidth={2.5}
+										>
+											<path
+												strokeLinecap="round"
+												strokeLinejoin="round"
+												d="M5 13l4 4L19 7"
+											/>
+										</svg>
+										<span className="text-balance">
+											Vlastní Discord skupina
+										</span>
+									</div>
+									<div className="flex items-start gap-3">
+										<svg
+											className="w-5 h-5 text-yellow-accent flex-shrink-0"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+											strokeWidth={2.5}
+										>
+											<path
+												strokeLinecap="round"
+												strokeLinejoin="round"
+												d="M5 13l4 4L19 7"
+											/>
+										</svg>
+										<span className="text-balance">
+											Rituály & týdenní úkoly
+										</span>
+									</div>
+									<div className="flex items-start gap-3">
+										<svg
+											className="w-5 h-5 text-yellow-accent flex-shrink-0"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+											strokeWidth={2.5}
+										>
+											<path
+												strokeLinecap="round"
+												strokeLinejoin="round"
+												d="M5 13l4 4L19 7"
+											/>
+										</svg>
+										<span className="text-balance">
+											Aktuality a AI novinky e-mailem
+										</span>
+									</div>
+									<div className="flex items-start gap-3">
+										<svg
+											className="w-5 h-5 text-yellow-accent flex-shrink-0"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+											strokeWidth={2.5}
+										>
+											<path
+												strokeLinecap="round"
+												strokeLinejoin="round"
+												d="M5 13l4 4L19 7"
+											/>
+										</svg>
+										<span className="text-balance">
+											Networking podle kapacity skupiny
+										</span>
+									</div>
 								</div>
 							</div>
 
@@ -269,88 +285,96 @@ export default function AvailableDatesSection() {
 							</div>
 
 							{/* Feature list with checkmarks */}
-							<div className="text-cream font-inter text-sm space-y-3 mb-8 flex-grow">
-								<div className="flex items-center justify-center gap-2">
-									<svg
-										className="w-5 h-5 text-yellow-accent flex-shrink-0"
-										fill="none"
-										stroke="currentColor"
-										viewBox="0 0 24 24"
-										strokeWidth={2.5}
-									>
-										<path
-											strokeLinecap="round"
-											strokeLinejoin="round"
-											d="M5 13l4 4L19 7"
-										/>
-									</svg>
-									<span>Start kdykoliv</span>
-								</div>
-								<div className="flex items-center justify-center gap-2">
-									<svg
-										className="w-5 h-5 text-yellow-accent flex-shrink-0"
-										fill="none"
-										stroke="currentColor"
-										viewBox="0 0 24 24"
-										strokeWidth={2.5}
-									>
-										<path
-											strokeLinecap="round"
-											strokeLinejoin="round"
-											d="M5 13l4 4L19 7"
-										/>
-									</svg>
-									<span>Přístup ke všem videím a materiálům</span>
-								</div>
-								<div className="flex items-center justify-center gap-2">
-									<svg
-										className="w-5 h-5 text-yellow-accent flex-shrink-0"
-										fill="none"
-										stroke="currentColor"
-										viewBox="0 0 24 24"
-										strokeWidth={2.5}
-									>
-										<path
-											strokeLinecap="round"
-											strokeLinejoin="round"
-											d="M5 13l4 4L19 7"
-										/>
-									</svg>
-									<span>Studuj podle sebe - bez stresu, bez termínů</span>
-								</div>
-								<div className="flex items-center justify-center gap-2">
-									<svg
-										className="w-5 h-5 text-yellow-accent flex-shrink-0"
-										fill="none"
-										stroke="currentColor"
-										viewBox="0 0 24 24"
-										strokeWidth={2.5}
-									>
-										<path
-											strokeLinecap="round"
-											strokeLinejoin="round"
-											d="M5 13l4 4L19 7"
-										/>
-									</svg>
-									<span>
-										Perfektní pro úplné začátečníky i introvertní samouky
-									</span>
-								</div>
-								<div className="flex items-center justify-center gap-2 opacity-40">
-									<svg
-										className="w-5 h-5 text-yellow-accent flex-shrink-0"
-										fill="none"
-										stroke="currentColor"
-										viewBox="0 0 24 24"
-										strokeWidth={2.5}
-									>
-										<path
-											strokeLinecap="round"
-											strokeLinejoin="round"
-											d="M6 18L18 6M6 6l12 12"
-										/>
-									</svg>
-									<span>Bez konzultací a skupinových aktivit</span>
+							<div className="text-cream font-inter text-sm mb-8 flex-grow flex flex-col items-center">
+								<div className="inline-block text-left space-y-3">
+									<div className="flex items-start gap-3">
+										<svg
+											className="w-5 h-5 text-yellow-accent flex-shrink-0"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+											strokeWidth={2.5}
+										>
+											<path
+												strokeLinecap="round"
+												strokeLinejoin="round"
+												d="M5 13l4 4L19 7"
+											/>
+										</svg>
+										<span className="text-balance">Start kdykoliv</span>
+									</div>
+									<div className="flex items-start gap-3">
+										<svg
+											className="w-5 h-5 text-yellow-accent flex-shrink-0"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+											strokeWidth={2.5}
+										>
+											<path
+												strokeLinecap="round"
+												strokeLinejoin="round"
+												d="M5 13l4 4L19 7"
+											/>
+										</svg>
+										<span className="text-balance">
+											Přístup ke všem videím a materiálům
+										</span>
+									</div>
+									<div className="flex items-start gap-3">
+										<svg
+											className="w-5 h-5 text-yellow-accent flex-shrink-0"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+											strokeWidth={2.5}
+										>
+											<path
+												strokeLinecap="round"
+												strokeLinejoin="round"
+												d="M5 13l4 4L19 7"
+											/>
+										</svg>
+										<span className="text-balance">
+											Studuj podle sebe - bez stresu, bez termínů
+										</span>
+									</div>
+									<div className="flex items-start gap-3">
+										<svg
+											className="w-5 h-5 text-yellow-accent flex-shrink-0"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+											strokeWidth={2.5}
+										>
+											<path
+												strokeLinecap="round"
+												strokeLinejoin="round"
+												d="M5 13l4 4L19 7"
+											/>
+										</svg>
+										<span className="text-balance">
+											Perfektní pro úplné začátečníky i introvertní samouky
+										</span>
+									</div>
+									<div className="flex items-start gap-3 opacity-40">
+										<svg
+											className="w-5 h-5 text-yellow-accent flex-shrink-0"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+											strokeWidth={2.5}
+										>
+											<path
+												strokeLinecap="round"
+												strokeLinejoin="round"
+												d="M6 18L18 6M6 6l12 12"
+											/>
+										</svg>
+										<span className="text-balance">
+											Bez konzultací a skupinových aktivit
+										</span>
+									</div>
 								</div>
 							</div>
 
