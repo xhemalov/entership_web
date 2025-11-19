@@ -144,12 +144,12 @@ export default function AboutPageContent() {
 
 			{/* Values Section */}
 			<section className="px-6 py-16 lg:px-12 bg-purple-main">
-				<div className="max-w-6xl mx-auto">
+				<div className="max-w-[1400px] mx-auto">
 					<h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-foreground text-center mb-16 leading-normal-xl">
 						Proč jsme tak skvělí?
 					</h2>
 
-					<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+					<div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 						{/* Value 1 */}
 						<div className="bg-[#FFFBEB]/15 border border-purple-light/20 p-8 rounded-2xl hover:border-yellow-accent/50 transition-colors">
 							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
@@ -209,7 +209,7 @@ export default function AboutPageContent() {
 						</div>
 
 						{/* Value 5 */}
-						<div className="bg-[#FFFBEB]/15 border border-purple-light/20 p-8 rounded-2xl hover:border-yellow-accent/50 transition-colors md:col-span-2 lg:col-span-1">
+						<div className="bg-[#FFFBEB]/15 border border-purple-light/20 p-8 rounded-2xl hover:border-yellow-accent/50 transition-colors">
 							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
 								<Coffee className="w-6 h-6 text-black" />
 							</div>
@@ -219,6 +219,48 @@ export default function AboutPageContent() {
 							<p className="font-inter text-cream/80">
 								Milujeme deskovky, sci-fi, fantasy, čaj i kávu a absurdní IT
 								situace. A učíme tak, aby to bylo moderní, přístupné a lidské.
+							</p>
+						</div>
+
+						{/* Value 6 */}
+						<div className="bg-[#FFFBEB]/15 border border-purple-light/20 p-8 rounded-2xl hover:border-yellow-accent/50 transition-colors">
+							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
+								<Lightbulb className="w-6 h-6 text-black" />
+							</div>
+							<h3 className="text-xl font-bold font-nasalization text-white mb-4">
+								Žádné hloupé otázky
+							</h3>
+							<p className="font-inter text-cream/80">
+								Bojíš se zeptat? U nás nemusíš. Kdo se neptá, nic se nedozví.
+								Vysvětlíme ti to klidně pětkrát, dokud ti to nesepne.
+							</p>
+						</div>
+
+						{/* Value 7 */}
+						<div className="bg-[#FFFBEB]/15 border border-purple-light/20 p-8 rounded-2xl hover:border-yellow-accent/50 transition-colors">
+							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
+								<Brain className="w-6 h-6 text-black" />
+							</div>
+							<h3 className="text-xl font-bold font-nasalization text-white mb-4">
+								Zpětná vazba, co posouvá
+							</h3>
+							<p className="font-inter text-cream/80">
+								Neplácáme tě jen po zádech. Řekneme ti narovinu, co zlepšit, ale
+								taky ti ukážeme, jak na to. Konstruktivně a bez hejtu.
+							</p>
+						</div>
+
+						{/* Value 8 */}
+						<div className="bg-[#FFFBEB]/15 border border-purple-light/20 p-8 rounded-2xl hover:border-yellow-accent/50 transition-colors">
+							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
+								<Users className="w-6 h-6 text-black" />
+							</div>
+							<h3 className="text-xl font-bold font-nasalization text-white mb-4">
+								Učíme se navzájem
+							</h3>
+							<p className="font-inter text-cream/80">
+								Nikdo neví všechno. Svět IT letí dopředu a my se učíme s ním.
+								Jsme otevření diskuzi a často se učíme i my od vás.
 							</p>
 						</div>
 					</div>

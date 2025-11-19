@@ -61,7 +61,7 @@ export default function HomePageContent() {
 							href="#available-dates"
 							className="inline-block bg-button-cream text-black px-8 py-4 rounded-xl font-inter font-semibold text-lg hover:bg-yellow-100 transition-colors"
 						>
-							ZAČÍT HNED
+							Jdu do toho
 						</a>
 					</div>
 					<div className="relative flex justify-center lg:justify-end">
@@ -470,7 +470,7 @@ export default function HomePageContent() {
 							href="#available-dates"
 							className="inline-block bg-button-cream text-black px-8 py-4 rounded-xl font-inter font-semibold text-lg hover:bg-yellow-100 transition-colors"
 						>
-							ZAČÍT HNED
+							Rozjeď to s AI
 						</a>
 					</div>
 				</div>
@@ -499,9 +499,9 @@ export default function HomePageContent() {
 					</div>
 					<a
 						href="#available-dates"
-						className="inline-block bg-button-cream text-black px-12 py-6 rounded-xl font-inter font-bold text-xl hover:bg-yellow-100 transition-colors"
+						className="inline-block uppercase bg-button-cream text-black px-12 py-6 rounded-xl font-inter font-bold text-xl hover:bg-yellow-100 transition-colors"
 					>
-						ZAČÍT HNED
+						Pozadu? Ani náhodou, jdu do toho!
 					</a>
 				</div>
 			</section>
