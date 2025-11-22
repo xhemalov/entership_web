@@ -257,7 +257,7 @@ export default function AboutPageContent() {
 			</section>
 
 			{/* Emotional Statement Strip */}
-			<section className="py-16 bg-button-cream text-black text-center px-6">
+			<section className="py-16 bg-button-cream text-[#701A75] text-center px-6">
 				<div className="max-w-4xl mx-auto">
 					<h3 className="text-2xl md:text-4xl font-nasalization font-bold leading-relaxed">
 						„Jsme sehraný tým, který miluje technologie. A ty se můžeš stát jeho

@@ -40,7 +40,7 @@ export default function ContactPageContent() {
 					</a>
 					<a
 						href="/#available-dates"
-						className="bg-button-cream text-black px-6 py-2 rounded-xl font-medium hover:bg-yellow-100 transition-colors"
+						className="bg-button-cream text-[#701A75] px-6 py-2 rounded-xl font-medium hover:bg-yellow-100 transition-colors"
 					>
 						PŘIHLÁSIT SE
 					</a>

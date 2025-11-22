@@ -510,7 +510,7 @@ export default function HomePageContent() {
 								/>
 							</div>
 							<div className="w-full md:w-1/2 p-8 flex flex-col justify-center">
-								<h3 className="text-black font-inter font-bold text-2xl mb-2 leading-relaxed-xl">
+								<h3 className="text-[#701A75] font-inter font-bold text-2xl mb-2 leading-relaxed-xl">
 									Petr Glaser
 								</h3>
 								<p className="text-purple-main font-inter font-bold text-sm mb-2">
@@ -518,11 +518,11 @@ export default function HomePageContent() {
 								</p>
 								<a
 									href="mailto:petr.glaser@entership.cz"
-									className="text-black/80 font-inter text-sm mb-6 hover:text-purple-main transition-colors"
+									className="text-[#701A75]/80 font-inter text-sm mb-6 hover:text-purple-main transition-colors"
 								>
 									petr.glaser@entership.cz
 								</a>
-								<div className="font-inter text-sm leading-relaxed space-y-4 text-black/90">
+								<div className="font-inter text-sm leading-relaxed space-y-4 text-[#701A75]/90">
 									<p>
 										Fanatik AI a produktivity vývojářů. I tak je Petr označován
 										(nejen) sám sebou, ale i jeho kolegy a přáteli. Jeho nadšení
