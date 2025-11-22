@@ -65,6 +65,14 @@ export default function FooterSection() {
 									Obchodní podmínky
 								</a>
 							</li>
+							<li>
+								<a
+									href="/zasady-zpracovani-osobnich-udaju"
+									className="hover:text-yellow-accent transition-colors"
+								>
+									Zásady zpracování osobních údajů
+								</a>
+							</li>
 						</ul>
 					</div>
 					<div>
