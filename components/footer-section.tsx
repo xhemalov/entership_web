@@ -57,6 +57,14 @@ export default function FooterSection() {
 									Kontakt
 								</a>
 							</li>
+							<li>
+								<a
+									href="/obchodni-podminky"
+									className="hover:text-yellow-accent transition-colors"
+								>
+									Obchodní podmínky
+								</a>
+							</li>
 						</ul>
 					</div>
 					<div>
@@ -105,6 +113,9 @@ export default function FooterSection() {
 				<div className="border-t border-purple-light/20 pt-8 text-center">
 					<p className="font-inter text-sm">
 						© 2025 Entership. Všechna práva vyhrazena.
+					</p>
+					<p className="font-inter text-sm mt-2 text-cream/60">
+						IČO: 23198605
 					</p>
 				</div>
 			</div>
