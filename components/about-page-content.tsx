@@ -148,8 +148,8 @@ export default function AboutPageContent() {
 
 					<div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 						<div className="bg-[#FFFBEB]/15 border border-purple-light/20 p-8 rounded-2xl hover:border-yellow-accent/50 transition-colors">
-							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
-								<Rocket className="w-6 h-6 text-black" />
+							<div className="w-12 h-12 bg-transparent border border-yellow-accent rounded-lg flex items-center justify-center mb-6">
+								<Rocket className="w-6 h-6 text-yellow-accent" />
 							</div>
 							<h3 className="text-xl font-bold font-nasalization text-[#FFFBEB] mb-4">
 								Učíme prakticky, ne akademicky
@@ -161,8 +161,8 @@ export default function AboutPageContent() {
 						</div>
 
 						<div className="bg-[#FFFBEB]/15 border border-purple-light/20 p-8 rounded-2xl hover:border-yellow-accent/50 transition-colors">
-							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
-								<Smile className="w-6 h-6 text-black" />
+							<div className="w-12 h-12 bg-transparent border border-yellow-accent rounded-lg flex items-center justify-center mb-6">
+								<Smile className="w-6 h-6 text-yellow-accent" />
 							</div>
 							<h3 className="text-xl font-bold font-nasalization text-[#FFFBEB] mb-4">
 								Vysvětlujeme lidsky (a s humorem)
@@ -174,8 +174,8 @@ export default function AboutPageContent() {
 						</div>
 
 						<div className="bg-[#FFFBEB]/15 border border-purple-light/20 p-8 rounded-2xl hover:border-yellow-accent/50 transition-colors">
-							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
-								<Zap className="w-6 h-6 text-black" />
+							<div className="w-12 h-12 bg-transparent border border-yellow-accent rounded-lg flex items-center justify-center mb-6">
+								<Zap className="w-6 h-6 text-yellow-accent" />
 							</div>
 							<h3 className="text-xl font-bold font-nasalization text-[#FFFBEB] mb-4">
 								Pomáháme růst - nevedeme za ručičku
@@ -188,8 +188,8 @@ export default function AboutPageContent() {
 						</div>
 
 						<div className="bg-[#FFFBEB]/15 border border-purple-light/20 p-8 rounded-2xl hover:border-yellow-accent/50 transition-colors">
-							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
-								<Cpu className="w-6 h-6 text-black" />
+							<div className="w-12 h-12 bg-transparent border border-yellow-accent rounded-lg flex items-center justify-center mb-6">
+								<Cpu className="w-6 h-6 text-yellow-accent" />
 							</div>
 							<h3 className="text-xl font-bold font-nasalization text-[#FFFBEB] mb-4">
 								Moderní technologie a žádný bullshit
@@ -202,8 +202,8 @@ export default function AboutPageContent() {
 						</div>
 
 						<div className="bg-[#FFFBEB]/15 border border-purple-light/20 p-8 rounded-2xl hover:border-yellow-accent/50 transition-colors">
-							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
-								<Coffee className="w-6 h-6 text-black" />
+							<div className="w-12 h-12 bg-transparent border border-yellow-accent rounded-lg flex items-center justify-center mb-6">
+								<Coffee className="w-6 h-6 text-yellow-accent" />
 							</div>
 							<h3 className="text-xl font-bold font-nasalization text-[#FFFBEB] mb-4">
 								Jsme nerdi tělem i duší
@@ -215,8 +215,8 @@ export default function AboutPageContent() {
 						</div>
 
 						<div className="bg-[#FFFBEB]/15 border border-purple-light/20 p-8 rounded-2xl hover:border-yellow-accent/50 transition-colors">
-							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
-								<Lightbulb className="w-6 h-6 text-black" />
+							<div className="w-12 h-12 bg-transparent border border-yellow-accent rounded-lg flex items-center justify-center mb-6">
+								<Lightbulb className="w-6 h-6 text-yellow-accent" />
 							</div>
 							<h3 className="text-xl font-bold font-nasalization text-[#FFFBEB] mb-4">
 								Žádné hloupé otázky
@@ -228,8 +228,8 @@ export default function AboutPageContent() {
 						</div>
 
 						<div className="bg-[#FFFBEB]/15 border border-purple-light/20 p-8 rounded-2xl hover:border-yellow-accent/50 transition-colors">
-							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
-								<Brain className="w-6 h-6 text-black" />
+							<div className="w-12 h-12 bg-transparent border border-yellow-accent rounded-lg flex items-center justify-center mb-6">
+								<Brain className="w-6 h-6 text-yellow-accent" />
 							</div>
 							<h3 className="text-xl font-bold font-nasalization text-[#FFFBEB] mb-4">
 								Zpětná vazba, co posouvá
@@ -241,8 +241,8 @@ export default function AboutPageContent() {
 						</div>
 
 						<div className="bg-[#FFFBEB]/15 border border-purple-light/20 p-8 rounded-2xl hover:border-yellow-accent/50 transition-colors">
-							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
-								<Users className="w-6 h-6 text-black" />
+							<div className="w-12 h-12 bg-transparent border border-yellow-accent rounded-lg flex items-center justify-center mb-6">
+								<Users className="w-6 h-6 text-yellow-accent" />
 							</div>
 							<h3 className="text-xl font-bold font-nasalization text-[#FFFBEB] mb-4">
 								Učíme se navzájem
