@@ -7,11 +7,13 @@ export default function HomePageContent() {
 	return (
 		<div className="min-h-screen bg-purple-main text-cream">
 			<nav className="sticky top-0 z-50 flex items-center justify-between px-6 py-4 lg:px-12 bg-purple-main border-b border-purple-light/10">
-				<img
-					src="https://assets.macaly-user-data.dev/cdn-cgi/image/format=webp,width=2000,height=2000,fit=scale-down,quality=90,anim=true/h78douel905nwuxnwh8o3ggu/fs3w9kis8argxhrbeysyrfjn/bHLqutq0N2XjQ9sEPOwDk/logo-entership-no-background-white.png"
-					alt="Entership Logo"
-					className="h-12 w-auto"
-				/>
+				<a href="/">
+					<img
+						src="https://assets.macaly-user-data.dev/cdn-cgi/image/format=webp,width=2000,height=2000,fit=scale-down,quality=90,anim=true/h78douel905nwuxnwh8o3ggu/fs3w9kis8argxhrbeysyrfjn/bHLqutq0N2XjQ9sEPOwDk/logo-entership-no-background-white.png"
+						alt="Entership Logo"
+						className="h-12 w-auto"
+					/>
+				</a>
 				<div className="hidden md:flex items-center space-x-8 text-cream font-inter">
 					<a
 						href="#available-dates"
