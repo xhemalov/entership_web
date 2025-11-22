@@ -245,7 +245,7 @@ export default function AvailableDatesSection() {
 					<button
 						type="button"
 						aria-label="Vybrat: Jen videa bez lektora"
-						className="relative bg-[#FFFBEB]/15 border border-[#FFFBEB]/30 rounded-2xl overflow-hidden hover:border-[#FFFBEB]/60 hover:shadow-xl hover:shadow-purple-light/10 transition-all duration-300 group w-full text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-accent/80 cursor-pointer flex flex-col"
+						className="relative bg-[#FFFBEB]/15 border border-[#FFFBEB]/30 rounded-2xl overflow-hidden hover:border-yellow-accent hover:shadow-xl hover:shadow-purple-light/10 transition-all duration-300 group w-full text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-accent/80 cursor-pointer flex flex-col"
 					>
 						{/* Icon section */}
 						<div className="pt-12 pb-8 px-8 text-center flex-shrink-0">

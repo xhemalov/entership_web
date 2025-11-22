@@ -1,6 +1,7 @@
 "use client";
 
 import FooterSection from "@/components/footer-section";
+import Navbar from "@/components/navbar";
 import {
 	Facebook,
 	Instagram,
@@ -25,38 +26,7 @@ export default function ContactPageContent() {
 	return (
 		<div className="min-h-screen bg-purple-main text-cream">
 			{/* Navigation */}
-			<nav className="sticky top-0 z-50 flex items-center justify-between px-6 py-4 lg:px-12 bg-purple-main border-b border-purple-light/10">
-				<a href="/">
-					<img
-						src="https://assets.macaly-user-data.dev/cdn-cgi/image/format=webp,width=2000,height=2000,fit=scale-down,quality=90,anim=true/h78douel905nwuxnwh8o3ggu/fs3w9kis8argxhrbeysyrfjn/bHLqutq0N2XjQ9sEPOwDk/logo-entership-no-background-white.png"
-						alt="Entership Logo"
-						className="h-12 w-auto"
-					/>
-				</a>
-				<div className="hidden md:flex items-center space-x-8 text-cream font-inter">
-					<a
-						href="/#available-dates"
-						className="hover:text-yellow-accent transition-colors"
-					>
-						KURZY
-					</a>
-					<a
-						href="/o-nas"
-						className="hover:text-yellow-accent transition-colors"
-					>
-						O NÁS
-					</a>
-					<a href="/kontakt" className="text-yellow-accent transition-colors">
-						KONTAKT
-					</a>
-					<a
-						href="/#available-dates"
-						className="bg-button-cream text-[#701A75] px-6 py-2 rounded-xl font-medium hover:bg-yellow-100 transition-colors"
-					>
-						PŘIHLÁSIT SE
-					</a>
-				</div>
-			</nav>
+			<Navbar />
 
 			{/* Header Section */}
 			<section className="px-6 py-16 lg:px-12 lg:py-24 bg-purple-main">
