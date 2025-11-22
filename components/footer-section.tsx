@@ -73,6 +73,14 @@ export default function FooterSection() {
 									Zásady zpracování osobních údajů
 								</a>
 							</li>
+							<li>
+								<a
+									href="/zasady-pouzivani-cookies"
+									className="hover:text-yellow-accent transition-colors"
+								>
+									Zásady používání cookies
+								</a>
+							</li>
 						</ul>
 					</div>
 					<div>
