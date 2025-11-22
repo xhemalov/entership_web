@@ -370,7 +370,7 @@ export default function HomePageContent() {
 						Pojď se potkat s lektorem Petrem
 					</h2>
 					<div className="relative bg-purple-light/20 border border-purple-light/30 rounded-lg aspect-video flex items-center justify-center">
-						<button className="w-20 h-20 bg-white rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors">
+						<button className="w-20 h-20 bg-[#FFFBEB] rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors">
 							<div className="w-0 h-0 border-l-[20px] border-l-black border-y-[12px] border-y-transparent ml-1"></div>
 						</button>
 					</div>
@@ -482,7 +482,7 @@ export default function HomePageContent() {
 						Nezůstávej pozadu. Začni svou cestu k mistrovství v AI ještě dnes.
 					</p>
 					<div className="relative bg-purple-light/20 border border-purple-light/30 rounded-lg aspect-video flex items-center justify-center mb-8">
-						<button className="w-20 h-20 bg-white rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors">
+						<button className="w-20 h-20 bg-[#FFFBEB] rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors">
 							<div className="w-0 h-0 border-l-[20px] border-l-black border-y-[12px] border-y-transparent ml-1"></div>
 						</button>
 					</div>

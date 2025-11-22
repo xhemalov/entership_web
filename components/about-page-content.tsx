@@ -128,7 +128,7 @@ export default function AboutPageContent() {
 							Ne proto, že jsme změnili směr. Ale proto, že kvalitní vzdělávání
 							je užitečné komukoli, kdo chce růst.
 						</p>
-						<p className="text-xl font-bold text-white border-l-4 border-yellow-accent pl-6 py-2 my-8">
+						<p className="text-xl font-bold text-[#FFFBEB] border-l-4 border-yellow-accent pl-6 py-2 my-8">
 							A tak vznikl Entership - místo, kde může růst kdokoliv, kdo chce
 							držet krok s technologiemi.
 						</p>
@@ -151,7 +151,7 @@ export default function AboutPageContent() {
 							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
 								<Rocket className="w-6 h-6 text-black" />
 							</div>
-							<h3 className="text-xl font-bold font-nasalization text-white mb-4">
+							<h3 className="text-xl font-bold font-nasalization text-[#FFFBEB] mb-4">
 								Učíme prakticky, ne akademicky
 							</h3>
 							<p className="font-inter text-cream/80">
@@ -164,7 +164,7 @@ export default function AboutPageContent() {
 							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
 								<Smile className="w-6 h-6 text-black" />
 							</div>
-							<h3 className="text-xl font-bold font-nasalization text-white mb-4">
+							<h3 className="text-xl font-bold font-nasalization text-[#FFFBEB] mb-4">
 								Vysvětlujeme lidsky (a s humorem)
 							</h3>
 							<p className="font-inter text-cream/80">
@@ -177,7 +177,7 @@ export default function AboutPageContent() {
 							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
 								<Zap className="w-6 h-6 text-black" />
 							</div>
-							<h3 className="text-xl font-bold font-nasalization text-white mb-4">
+							<h3 className="text-xl font-bold font-nasalization text-[#FFFBEB] mb-4">
 								Pomáháme růst - nevedeme za ručičku
 							</h3>
 							<p className="font-inter text-cream/80">
@@ -191,7 +191,7 @@ export default function AboutPageContent() {
 							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
 								<Cpu className="w-6 h-6 text-black" />
 							</div>
-							<h3 className="text-xl font-bold font-nasalization text-white mb-4">
+							<h3 className="text-xl font-bold font-nasalization text-[#FFFBEB] mb-4">
 								Moderní technologie a žádný bullshit
 							</h3>
 							<p className="font-inter text-cream/80">
@@ -205,7 +205,7 @@ export default function AboutPageContent() {
 							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
 								<Coffee className="w-6 h-6 text-black" />
 							</div>
-							<h3 className="text-xl font-bold font-nasalization text-white mb-4">
+							<h3 className="text-xl font-bold font-nasalization text-[#FFFBEB] mb-4">
 								Jsme nerdi tělem i duší
 							</h3>
 							<p className="font-inter text-cream/80">
@@ -218,7 +218,7 @@ export default function AboutPageContent() {
 							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
 								<Lightbulb className="w-6 h-6 text-black" />
 							</div>
-							<h3 className="text-xl font-bold font-nasalization text-white mb-4">
+							<h3 className="text-xl font-bold font-nasalization text-[#FFFBEB] mb-4">
 								Žádné hloupé otázky
 							</h3>
 							<p className="font-inter text-cream/80">
@@ -231,7 +231,7 @@ export default function AboutPageContent() {
 							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
 								<Brain className="w-6 h-6 text-black" />
 							</div>
-							<h3 className="text-xl font-bold font-nasalization text-white mb-4">
+							<h3 className="text-xl font-bold font-nasalization text-[#FFFBEB] mb-4">
 								Zpětná vazba, co posouvá
 							</h3>
 							<p className="font-inter text-cream/80">
@@ -244,7 +244,7 @@ export default function AboutPageContent() {
 							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
 								<Users className="w-6 h-6 text-black" />
 							</div>
-							<h3 className="text-xl font-bold font-nasalization text-white mb-4">
+							<h3 className="text-xl font-bold font-nasalization text-[#FFFBEB] mb-4">
 								Učíme se navzájem
 							</h3>
 							<p className="font-inter text-cream/80">
@@ -281,7 +281,7 @@ export default function AboutPageContent() {
 									className="w-full h-full object-cover"
 								/>
 							</div>
-							<h3 className="text-2xl font-bold font-inter text-white mb-1">
+							<h3 className="text-2xl font-bold font-inter text-[#FFFBEB] mb-1">
 								Petr Glaser
 							</h3>
 							<p className="text-yellow-accent font-medium mb-4">
@@ -301,7 +301,7 @@ export default function AboutPageContent() {
 									className="w-full h-full object-cover"
 								/>{" "}
 							</div>
-							<h3 className="text-2xl font-bold font-inter text-white mb-1">
+							<h3 className="text-2xl font-bold font-inter text-[#FFFBEB] mb-1">
 								Pavel
 							</h3>
 							<p className="text-yellow-accent font-medium mb-4">
@@ -318,7 +318,7 @@ export default function AboutPageContent() {
 							<div className="aspect-square bg-purple-light/20 rounded-2xl overflow-hidden mb-6 border-2 border-transparent group-hover:border-yellow-accent transition-all flex items-center justify-center">
 								<Heart className="w-20 h-20 text-purple-light/40" />
 							</div>
-							<h3 className="text-2xl font-bold font-inter text-white mb-1">
+							<h3 className="text-2xl font-bold font-inter text-[#FFFBEB] mb-1">
 								Lýdie
 							</h3>
 							<p className="text-yellow-accent font-medium mb-4">
@@ -339,7 +339,7 @@ export default function AboutPageContent() {
 			{/* CTA Block */}
 			<section className="px-6 py-16 lg:px-12">
 				<div className="max-w-4xl mx-auto">
-					<div className="bg-[#FFFBEB]/15 border border-white rounded-lg p-12 md:p-16 text-center mb-8">
+					<div className="bg-[#FFFBEB]/15 border border-[#FFFBEB] rounded-lg p-12 md:p-16 text-center mb-8">
 						<h2 className="text-2xl md:text-4xl font-nasalization font-bold text-[#4DEEEA] leading-relaxed uppercase tracking-wide">
 							MÁŠ MOŘE ZKUŠENOSTÍ A<br className="hidden md:block" />
 							CHCEŠ SE O KAPKU PODĚLIT?

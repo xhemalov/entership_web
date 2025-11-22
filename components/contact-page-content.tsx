@@ -69,7 +69,7 @@ export default function ContactPageContent() {
 						<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
 							<MessageCircle className="w-6 h-6 text-black" />
 						</div>
-						<h3 className="text-2xl font-bold font-nasalization text-white mb-2">
+						<h3 className="text-2xl font-bold font-nasalization text-[#FFFBEB] mb-2">
 							Discord – naše hlavní základna
 						</h3>
 						<p className="font-inter text-cream/80 mb-6">
@@ -78,7 +78,7 @@ export default function ContactPageContent() {
 						</p>
 						<a
 							href="https://naucme.it/discord"
-							className="inline-flex items-center gap-2 text-yellow-accent font-bold hover:text-white transition-colors"
+							className="inline-flex items-center gap-2 text-yellow-accent font-bold hover:text-[#FFFBEB] transition-colors"
 						>
 							Přidat se na Discord <span className="text-xl">→</span>
 						</a>
@@ -89,7 +89,7 @@ export default function ContactPageContent() {
 						<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
 							<Facebook className="w-6 h-6 text-black" />
 						</div>
-						<h3 className="text-2xl font-bold font-nasalization text-white mb-2">
+						<h3 className="text-2xl font-bold font-nasalization text-[#FFFBEB] mb-2">
 							Facebook – novinky & akce
 						</h3>
 						<p className="font-inter text-cream/80 mb-6">
@@ -98,7 +98,7 @@ export default function ContactPageContent() {
 						</p>
 						<a
 							href="https://www.facebook.com/NaucMeIT/"
-							className="inline-flex items-center gap-2 text-yellow-accent font-bold hover:text-white transition-colors"
+							className="inline-flex items-center gap-2 text-yellow-accent font-bold hover:text-[#FFFBEB] transition-colors"
 						>
 							Sledovat Facebook <span className="text-xl">→</span>
 						</a>
@@ -109,7 +109,7 @@ export default function ContactPageContent() {
 						<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
 							<Linkedin className="w-6 h-6 text-black" />
 						</div>
-						<h3 className="text-2xl font-bold font-nasalization text-white mb-2">
+						<h3 className="text-2xl font-bold font-nasalization text-[#FFFBEB] mb-2">
 							LinkedIn – pro kariérní růst
 						</h3>
 						<p className="font-inter text-cream/80 mb-6">
@@ -118,7 +118,7 @@ export default function ContactPageContent() {
 						</p>
 						<a
 							href="https://www.linkedin.com/company/nauc-me-it"
-							className="inline-flex items-center gap-2 text-yellow-accent font-bold hover:text-white transition-colors"
+							className="inline-flex items-center gap-2 text-yellow-accent font-bold hover:text-[#FFFBEB] transition-colors"
 						>
 							Sledovat LinkedIn <span className="text-xl">→</span>
 						</a>
@@ -129,7 +129,7 @@ export default function ContactPageContent() {
 						<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
 							<Instagram className="w-6 h-6 text-black" />
 						</div>
-						<h3 className="text-2xl font-bold font-nasalization text-white mb-2">
+						<h3 className="text-2xl font-bold font-nasalization text-[#FFFBEB] mb-2">
 							Instagram – Entership vibe
 						</h3>
 						<p className="font-inter text-cream/80 mb-6">
@@ -137,7 +137,7 @@ export default function ContactPageContent() {
 						</p>
 						<a
 							href="https://www.instagram.com/naucmeit/"
-							className="inline-flex items-center gap-2 text-yellow-accent font-bold hover:text-white transition-colors"
+							className="inline-flex items-center gap-2 text-yellow-accent font-bold hover:text-[#FFFBEB] transition-colors"
 						>
 							Sledovat Instagram <span className="text-xl">→</span>
 						</a>
@@ -147,11 +147,11 @@ export default function ContactPageContent() {
 
 			<section className="px-6 pb-16 lg:px-12 bg-purple-main">
 				<div className="max-w-4xl mx-auto">
-					<div className="bg-[#FFFBEB]/15 border border-white rounded-lg p-12 text-center flex flex-col gap-4">
+					<div className="bg-[#FFFBEB]/15 border border-[#FFFBEB] rounded-lg p-12 text-center flex flex-col gap-4">
 						<div className="w-16 h-16 bg-yellow-accent rounded-full flex items-center justify-center mx-auto">
 							<Mail className="w-8 h-8 text-black" />
 						</div>
-						<h2 className="text-3xl font-nasalization font-bold text-white">
+						<h2 className="text-3xl font-nasalization font-bold text-[#FFFBEB]">
 							Email
 						</h2>
 						<p className="font-inter text-cream/80">
@@ -159,7 +159,7 @@ export default function ContactPageContent() {
 						</p>
 						<a
 							href="mailto:hello@entership.cz"
-							className="text-2xl md:text-4xl font-bold text-[#4DEEEA] hover:text-white transition-colors"
+							className="text-2xl md:text-4xl font-bold text-[#4DEEEA] hover:text-[#FFFBEB] transition-colors"
 						>
 							hello@entership.cz
 						</a>

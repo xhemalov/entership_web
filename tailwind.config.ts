@@ -33,7 +33,7 @@ const config: Config = {
         'yellow-accent': '#FDE047',
         'button-cream': '#F5F5DC',
         'button-cream-hover': '#F0F0D2',
-        'cream': '#FFF8E7',
+        'cream': '#FFFBEB',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: {
