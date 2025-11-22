@@ -59,7 +59,7 @@ export default function FooterSection() {
 									href="https://www.facebook.com/NaucMeIT/"
 									target="_blank"
 									rel="noopener noreferrer"
-									className="w-10 h-10 bg-yellow-accent rounded-lg flex items-center justify-center text-black hover:bg-yellow-300 hover:shadow-lg hover:scale-110 transition-all duration-300 text-sm font-bold shadow-md"
+									className="w-10 h-10 bg-yellow-accent rounded-lg flex items-center justify-center text-[#701A75] hover:bg-yellow-300 hover:shadow-lg hover:scale-110 transition-all duration-300 text-sm font-bold shadow-md"
 								>
 									<Facebook className="w-5 h-5" />
 								</a>
@@ -67,7 +67,7 @@ export default function FooterSection() {
 									href="https://www.linkedin.com/company/nauc-me-it"
 									target="_blank"
 									rel="noopener noreferrer"
-									className="w-10 h-10 bg-yellow-accent rounded-lg flex items-center justify-center text-black hover:bg-yellow-300 hover:shadow-lg hover:scale-110 transition-all duration-300 text-sm font-bold shadow-md"
+									className="w-10 h-10 bg-yellow-accent rounded-lg flex items-center justify-center text-[#701A75] hover:bg-yellow-300 hover:shadow-lg hover:scale-110 transition-all duration-300 text-sm font-bold shadow-md"
 								>
 									<Linkedin className="w-5 h-5" />
 								</a>
@@ -75,7 +75,7 @@ export default function FooterSection() {
 									href="https://naucme.it/discord"
 									target="_blank"
 									rel="noopener noreferrer"
-									className="w-10 h-10 bg-yellow-accent rounded-lg flex items-center justify-center text-black hover:bg-yellow-300 hover:shadow-lg hover:scale-110 transition-all duration-300 text-sm font-bold shadow-md"
+									className="w-10 h-10 bg-yellow-accent rounded-lg flex items-center justify-center text-[#701A75] hover:bg-yellow-300 hover:shadow-lg hover:scale-110 transition-all duration-300 text-sm font-bold shadow-md"
 								>
 									<MessageCircle className="w-5 h-5" />
 								</a>

@@ -35,7 +35,7 @@ export default function HomePageContent() {
 					</a>
 					<a
 						href="/#available-dates"
-						className="bg-button-cream text-black px-6 py-2 rounded-xl font-medium hover:bg-yellow-100 transition-colors"
+						className="bg-button-cream text-[#701A75] px-6 py-2 rounded-xl font-medium hover:bg-yellow-100 transition-colors"
 					>
 						PŘIHLÁSIT SE
 					</a>
@@ -57,7 +57,7 @@ export default function HomePageContent() {
 						</p>
 						<a
 							href="#available-dates"
-							className="inline-block bg-button-cream text-black px-8 py-4 rounded-xl font-inter font-semibold text-lg hover:bg-yellow-100 transition-colors"
+							className="inline-block bg-button-cream text-[#701A75] px-8 py-4 rounded-xl font-inter font-semibold text-lg hover:bg-yellow-100 transition-colors"
 						>
 							Jdu do toho
 						</a>
@@ -461,7 +461,7 @@ export default function HomePageContent() {
 					<div className="text-center mt-12">
 						<a
 							href="#available-dates"
-							className="inline-block bg-button-cream text-black px-8 py-4 rounded-xl font-inter font-semibold text-lg hover:bg-yellow-100 transition-colors"
+							className="inline-block bg-button-cream text-[#701A75] px-8 py-4 rounded-xl font-inter font-semibold text-lg hover:bg-yellow-100 transition-colors"
 						>
 							Rozjeď to s AI
 						</a>
@@ -488,7 +488,7 @@ export default function HomePageContent() {
 					</div>
 					<a
 						href="#available-dates"
-						className="inline-block uppercase bg-button-cream text-black px-12 py-6 rounded-xl font-inter font-bold text-xl hover:bg-yellow-100 transition-colors"
+						className="inline-block uppercase bg-button-cream text-[#701A75] px-12 py-6 rounded-xl font-inter font-bold text-xl hover:bg-yellow-100 transition-colors"
 					>
 						Pozadu? Ani náhodou, jdu do toho!
 					</a>

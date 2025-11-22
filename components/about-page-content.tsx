@@ -44,7 +44,7 @@ export default function AboutPageContent() {
 					</a>
 					<a
 						href="/#available-dates"
-						className="bg-button-cream text-black px-6 py-2 rounded-xl font-medium hover:bg-yellow-100 transition-colors"
+						className="bg-button-cream text-[#701A75] px-6 py-2 rounded-xl font-medium hover:bg-yellow-100 transition-colors"
 					>
 						PŘIHLÁSIT SE
 					</a>
@@ -67,7 +67,7 @@ export default function AboutPageContent() {
 						</p>
 						<a
 							href="#pribeh"
-							className="inline-block uppercase bg-button-cream text-black px-8 py-4 rounded-xl font-inter font-semibold text-lg hover:bg-yellow-100 transition-colors"
+							className="inline-block uppercase bg-button-cream text-[#701A75] px-8 py-4 rounded-xl font-inter font-semibold text-lg hover:bg-yellow-100 transition-colors"
 						>
 							Poznej Entership
 						</a>
@@ -351,7 +351,7 @@ export default function AboutPageContent() {
 					<div className="text-center">
 						<a
 							href="mailto:petr.glaser@entership.cz"
-							className="inline-block bg-button-cream text-black px-12 py-4 rounded-lg font-inter font-bold text-lg hover:bg-yellow-100 transition-colors uppercase tracking-wide"
+							className="inline-block bg-button-cream text-[#701A75] px-12 py-4 rounded-lg font-inter font-bold text-lg hover:bg-yellow-100 transition-colors uppercase tracking-wide"
 						>
 							CHCI BÝT LEKTOREM
 						</a>
@@ -370,7 +370,7 @@ export default function AboutPageContent() {
 					</p>
 					<a
 						href="/kontakt"
-						className="inline-block uppercase bg-button-cream text-black px-8 py-4 rounded-xl font-inter font-bold text-lg hover:bg-yellow-100 transition-colors"
+						className="inline-block uppercase bg-button-cream text-[#701A75] px-8 py-4 rounded-xl font-inter font-bold text-lg hover:bg-yellow-100 transition-colors"
 					>
 						Kontaktuj nás
 					</a>
