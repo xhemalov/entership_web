@@ -457,7 +457,7 @@ export default function HomePageContent() {
 						href="#available-dates"
 						className="inline-block uppercase bg-button-cream text-[#701A75] px-12 py-6 rounded-xl font-inter font-bold text-xl hover:bg-yellow-100 transition-colors"
 					>
-						Pozadu? Ani náhodou, jdu do toho!
+						Jdu do toho!
 					</a>
 				</div>
 			</section>
