@@ -263,26 +263,6 @@ export default function AboutPageContent() {
 							</p>
 						</div>
 
-						<div className="group">
-							<div className="aspect-square bg-purple-light/20 rounded-2xl overflow-hidden mb-6 border-2 border-transparent group-hover:border-yellow-accent transition-all flex items-center justify-center">
-								<img
-									src="/pavel.png"
-									alt="Pavel Koudelka"
-									className="w-full h-full object-cover"
-								/>{" "}
-							</div>
-							<h3 className="text-2xl font-bold font-inter text-[#FFFBEB] mb-1">
-								Pavel
-							</h3>
-							<p className="text-yellow-accent font-medium mb-4">
-								Co-Founder & Operations
-							</p>
-							<p className="font-inter text-cream/80 text-sm leading-relaxed">
-								Ten, kdo drží chaos na uzdě. Starám se o to, aby všechno běželo
-								hladce a studenti měli vše, co potřebují. BlaBlaCar osud.
-							</p>
-						</div>
-
 						{/* Lýdie */}
 						<div className="group">
 							<div className="aspect-square rounded-2xl overflow-hidden mb-6 border-2 border-transparent group-hover:border-yellow-accent transition-all">
@@ -301,6 +281,26 @@ export default function AboutPageContent() {
 							<p className="font-inter text-cream/80 text-sm leading-relaxed">
 								Duše komunity. Pomáhám nováčkům překonat první překážky a cítit
 								se v IT světě jako doma. Bývalý junior, teď opora.
+							</p>
+						</div>
+
+						<div className="group">
+							<div className="aspect-square bg-purple-light/20 rounded-2xl overflow-hidden mb-6 border-2 border-transparent group-hover:border-yellow-accent transition-all flex items-center justify-center">
+								<img
+									src="/pavel.png"
+									alt="Pavel Koudelka"
+									className="w-full h-full object-cover"
+								/>{" "}
+							</div>
+							<h3 className="text-2xl font-bold font-inter text-[#FFFBEB] mb-1">
+								Pavel
+							</h3>
+							<p className="text-yellow-accent font-medium mb-4">
+								Co-Founder & Operations
+							</p>
+							<p className="font-inter text-cream/80 text-sm leading-relaxed">
+								Ten, kdo drží chaos na uzdě. Starám se o to, aby všechno běželo
+								hladce a studenti měli vše, co potřebují. BlaBlaCar osud.
 							</p>
 						</div>
 					</div>
