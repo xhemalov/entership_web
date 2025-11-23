@@ -3,6 +3,15 @@ import FAQSection from "@/components/faq-section";
 import FooterSection from "@/components/footer-section";
 import AvailableDatesSection from "@/components/available-dates-section";
 import Navbar from "@/components/navbar";
+import {
+	Dialog,
+	DialogContent,
+	DialogDescription,
+	DialogHeader,
+	DialogTitle,
+	DialogTrigger,
+} from "@/components/ui/dialog";
+import { Button } from "@/components/ui/button";
 
 export default function HomePageContent() {
 	return (
@@ -49,21 +58,21 @@ export default function HomePageContent() {
 					<div className="grid lg:grid-cols-2 gap-12">
 						<div className="space-y-6">
 							<div className="flex items-start space-x-4">
-								<div className="w-2 h-2 bg-yellow-accent rounded-full mt-3 flex-shrink-0"></div>
+								<div className="w-2 h-2 bg-yellow-accent rounded-full mt-3 flex-shrink-0" />
 								<p className="font-inter">
 									AI už není sci-fi. Je to běžný pracovní nástroj – a kdo ji
 									neumí, maká zbytečně rukama.
 								</p>
 							</div>
 							<div className="flex items-start space-x-4">
-								<div className="w-2 h-2 bg-yellow-accent rounded-full mt-3 flex-shrink-0"></div>
+								<div className="w-2 h-2 bg-yellow-accent rounded-full mt-3 flex-shrink-0" />
 								<p className="font-inter">
 									Naučíme tě AI používat chytře – ne jen otevřít ChatGPT a
 									doufat v zázrak.
 								</p>
 							</div>
 							<div className="flex items-start space-x-4">
-								<div className="w-2 h-2 bg-yellow-accent rounded-full mt-3 flex-shrink-0"></div>
+								<div className="w-2 h-2 bg-yellow-accent rounded-full mt-3 flex-shrink-0" />
 								<p className="font-inter">
 									Není to jen hračka pro ajťáky – používají ji markeťáci,
 									projekťáci, designéři i mámy na mateřský.
@@ -72,21 +81,21 @@ export default function HomePageContent() {
 						</div>
 						<div className="space-y-6">
 							<div className="flex items-start space-x-4">
-								<div className="w-2 h-2 bg-yellow-accent rounded-full mt-3 flex-shrink-0"></div>
+								<div className="w-2 h-2 bg-yellow-accent rounded-full mt-3 flex-shrink-0" />
 								<p className="font-inter">
 									Ušetříš si rutinu a nudnou opakovačku. Místo toho budeš dělat
 									práci, která má smysl.
 								</p>
 							</div>
 							<div className="flex items-start space-x-4">
-								<div className="w-2 h-2 bg-yellow-accent rounded-full mt-3 flex-shrink-0"></div>
+								<div className="w-2 h-2 bg-yellow-accent rounded-full mt-3 flex-shrink-0" />
 								<p className="font-inter">
 									Nebudeš lovit deset nejoblíbenějších promptů – naučíš se
 									vytvářet vlastní, které fakt fungují.
 								</p>
 							</div>
 							<div className="flex items-start space-x-4">
-								<div className="w-2 h-2 bg-yellow-accent rounded-full mt-3 flex-shrink-0"></div>
+								<div className="w-2 h-2 bg-yellow-accent rounded-full mt-3 flex-shrink-0" />
 								<p className="font-inter">
 									A jo… AI je prostě zábava. Jakmile pochopíš, jak na ni, už ji
 									neodložíš.
@@ -337,8 +346,11 @@ export default function HomePageContent() {
 						Pojď se potkat s lektorem Petrem
 					</h2>
 					<div className="relative bg-purple-light/20 border border-purple-light/30 rounded-lg aspect-video flex items-center justify-center">
-						<button className="w-20 h-20 bg-[#FFFBEB] rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors">
-							<div className="w-0 h-0 border-l-[20px] border-l-black border-y-[12px] border-y-transparent ml-1"></div>
+						<button
+							type="button"
+							className="w-20 h-20 bg-[#FFFBEB] rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors"
+						>
+							<div className="w-0 h-0 border-l-[20px] border-l-black border-y-[12px] border-y-transparent ml-1" />
 						</button>
 					</div>
 				</div>
@@ -350,6 +362,7 @@ export default function HomePageContent() {
 						Témata kurzu
 					</h2>
 					<div className="grid md:grid-cols-3 gap-8">
+						{/* Topic 1: Techniky promptování */}
 						<div className="text-center">
 							<div className="w-16 h-16 bg-yellow-accent rounded-full mx-auto mb-4 flex items-center justify-center">
 								<span className="text-black font-nasalization font-bold text-2xl">
@@ -359,8 +372,43 @@ export default function HomePageContent() {
 							<h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed min-h-[60px] flex items-center justify-center">
 								Techniky promptování
 							</h3>
-							<p className="font-inter">Od základů až po pokročilé prompty</p>
+							<p className="font-inter mb-4 text-balance">
+								Od základů až po pokročilé techniky promptování
+							</p>
+							<Dialog>
+								<DialogTrigger asChild>
+									<Button
+										variant="outline"
+										size="sm"
+										className="border-yellow-accent text-yellow-accent hover:bg-yellow-accent hover:text-black bg-transparent font-inter"
+									>
+										Detail
+									</Button>
+								</DialogTrigger>
+								<DialogContent className="bg-[#2D0A31] border-yellow-accent/20 text-cream sm:max-w-[425px]">
+									<DialogHeader>
+										<DialogTitle className="font-nasalization text-yellow-accent">
+											Techniky promptování
+										</DialogTitle>
+										<DialogDescription className="text-cream/80 font-inter">
+											Co se v tomto modulu naučíš?
+										</DialogDescription>
+									</DialogHeader>
+									<ul className="py-4 font-inter text-left list-disc list-inside space-y-2">
+										<li>Pochopíš principy dobrého promptu a kontextu.</li>
+										<li>
+											Naučíš se iterativně vylepšovat prompty pro použitelné
+											výstupy.
+										</li>
+										<li>
+											Vytvoříš si vlastní knihovnu promptů pro opakované úkoly.
+										</li>
+									</ul>
+								</DialogContent>
+							</Dialog>
 						</div>
+
+						{/* Topic 2: Vychytávky v chatovém rozhraní */}
 						<div className="text-center">
 							<div className="w-16 h-16 bg-yellow-accent rounded-full mx-auto mb-4 flex items-center justify-center">
 								<span className="text-black font-nasalization font-bold text-2xl">
@@ -368,12 +416,48 @@ export default function HomePageContent() {
 								</span>
 							</div>
 							<h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed min-h-[60px] flex items-center justify-center">
-								Vychytávky v chatovém rozhraní
+								Vychytávky v chat rozhraní
 							</h3>
-							<p className="font-inter">
-								Nezačínej nový chat když chceš něco změnit
+							<p className="font-inter mb-4 text-balance">
+								Uspořádej si práci a neztrácej se v konverzacích
 							</p>
+							<Dialog>
+								<DialogTrigger asChild>
+									<Button
+										variant="outline"
+										size="sm"
+										className="border-yellow-accent text-yellow-accent hover:bg-yellow-accent hover:text-black bg-transparent font-inter"
+									>
+										Detail
+									</Button>
+								</DialogTrigger>
+								<DialogContent className="bg-[#2D0A31] border-yellow-accent/20 text-cream sm:max-w-[425px]">
+									<DialogHeader>
+										<DialogTitle className="font-nasalization text-yellow-accent">
+											Vychytávky v chatovém rozhraní
+										</DialogTitle>
+										<DialogDescription className="text-cream/80 font-inter">
+											Co se v tomto modulu naučíš?
+										</DialogDescription>
+									</DialogHeader>
+									<ul className="py-4 font-inter text-left list-disc list-inside space-y-2">
+										<li>
+											Uspořádáš si práci v chatu a ovládneš práci s dlouhými
+											texty.
+										</li>
+										<li>
+											Vytvoříš si vlastní AI workflow pro psaní, plánování či
+											analýzy.
+										</li>
+										<li>
+											Naučíš se vést vlákno od nápadu až po finální výstup.
+										</li>
+									</ul>
+								</DialogContent>
+							</Dialog>
 						</div>
+
+						{/* Topic 3: Deep Research */}
 						<div className="text-center">
 							<div className="w-16 h-16 bg-yellow-accent rounded-full mx-auto mb-4 flex items-center justify-center">
 								<span className="text-black font-nasalization font-bold text-2xl">
@@ -381,12 +465,48 @@ export default function HomePageContent() {
 								</span>
 							</div>
 							<h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed min-h-[60px] flex items-center justify-center">
-								Custom GPT
+								Deep Research
 							</h3>
-							<p className="font-inter">
-								Vytvářej vlastní AI asistenty na míru
+							<p className="font-inter mb-4 text-balance">
+								Nauč se kombinovat AI a Google pro perfektní rešerše
 							</p>
+							<Dialog>
+								<DialogTrigger asChild>
+									<Button
+										variant="outline"
+										size="sm"
+										className="border-yellow-accent text-yellow-accent hover:bg-yellow-accent hover:text-black bg-transparent font-inter"
+									>
+										Detail
+									</Button>
+								</DialogTrigger>
+								<DialogContent className="bg-[#2D0A31] border-yellow-accent/20 text-cream sm:max-w-[425px]">
+									<DialogHeader>
+										<DialogTitle className="font-nasalization text-yellow-accent">
+											Deep Research
+										</DialogTitle>
+										<DialogDescription className="text-cream/80 font-inter">
+											Co se v tomto modulu naučíš?
+										</DialogDescription>
+									</DialogHeader>
+									<ul className="py-4 font-inter text-left list-disc list-inside space-y-2">
+										<li>
+											Naučíš se kombinovat AI a Google pro efektivní rešerše.
+										</li>
+										<li>
+											Osvojíš si research pipeline pro mapování libovolného
+											tématu.
+										</li>
+										<li>
+											Dokážeš kriticky porovnávat zdroje a syntetizovat
+											informace.
+										</li>
+									</ul>
+								</DialogContent>
+							</Dialog>
 						</div>
+
+						{/* Topic 4: CustomGPTs & Actions */}
 						<div className="text-center">
 							<div className="w-16 h-16 bg-yellow-accent rounded-full mx-auto mb-4 flex items-center justify-center">
 								<span className="text-black font-nasalization font-bold text-2xl">
@@ -394,12 +514,48 @@ export default function HomePageContent() {
 								</span>
 							</div>
 							<h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed min-h-[60px] flex items-center justify-center">
-								Praktické využití Custom GPT actions
+								CustomGPTs & Actions
 							</h3>
-							<p className="font-inter">
-								Integruj AI do svých pracovních procesů
+							<p className="font-inter mb-4 text-balance">
+								Postav si vlastního asistenta na míru svým úkolům
 							</p>
+							<Dialog>
+								<DialogTrigger asChild>
+									<Button
+										variant="outline"
+										size="sm"
+										className="border-yellow-accent text-yellow-accent hover:bg-yellow-accent hover:text-black bg-transparent font-inter"
+									>
+										Detail
+									</Button>
+								</DialogTrigger>
+								<DialogContent className="bg-[#2D0A31] border-yellow-accent/20 text-cream sm:max-w-[425px]">
+									<DialogHeader>
+										<DialogTitle className="font-nasalization text-yellow-accent">
+											CustomGPTs & Actions
+										</DialogTitle>
+										<DialogDescription className="text-cream/80 font-inter">
+											Co se v tomto modulu naučíš?
+										</DialogDescription>
+									</DialogHeader>
+									<ul className="py-4 font-inter text-left list-disc list-inside space-y-2">
+										<li>
+											Navrhneš a postavíš vlastního AI asistenta pro konkrétní
+											úkoly.
+										</li>
+										<li>
+											Pochopíš, kdy se CustomGPT vyplatí oproti běžnému chatu.
+										</li>
+										<li>
+											Napojíš AI na externí nástroje (Actions) pro reálnou
+											práci.
+										</li>
+									</ul>
+								</DialogContent>
+							</Dialog>
 						</div>
+
+						{/* Topic 5: Model Context Protocol (MCP) */}
 						<div className="text-center">
 							<div className="w-16 h-16 bg-yellow-accent rounded-full mx-auto mb-4 flex items-center justify-center">
 								<span className="text-black font-nasalization font-bold text-2xl">
@@ -407,10 +563,48 @@ export default function HomePageContent() {
 								</span>
 							</div>
 							<h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed min-h-[60px] flex items-center justify-center">
-								Deep research
+								Model Context Protocol (MCP)
 							</h3>
-							<p className="font-inter">Hloubkové analýzy a výzkum s AI</p>
+							<p className="font-inter mb-4 text-balance">
+								Propoj AI s externími daty a systémy mimo chat
+							</p>
+							<Dialog>
+								<DialogTrigger asChild>
+									<Button
+										variant="outline"
+										size="sm"
+										className="border-yellow-accent text-yellow-accent hover:bg-yellow-accent hover:text-black bg-transparent font-inter"
+									>
+										Detail
+									</Button>
+								</DialogTrigger>
+								<DialogContent className="bg-[#2D0A31] border-yellow-accent/20 text-cream sm:max-w-[425px]">
+									<DialogHeader>
+										<DialogTitle className="font-nasalization text-yellow-accent">
+											Model Context Protocol (MCP)
+										</DialogTitle>
+										<DialogDescription className="text-cream/80 font-inter">
+											Co se v tomto modulu naučíš?
+										</DialogDescription>
+									</DialogHeader>
+									<ul className="py-4 font-inter text-left list-disc list-inside space-y-2">
+										<li>
+											Propojíš AI s dalším softwarem, daty a externími systémy.
+										</li>
+										<li>
+											Identifikuješ místa ve svém workflow vhodná pro MCP
+											integraci.
+										</li>
+										<li>
+											Navrhneš scénáře a blueprint vlastního AI asistenta s
+											napojením.
+										</li>
+									</ul>
+								</DialogContent>
+							</Dialog>
 						</div>
+
+						{/* Topic 6: GDPR, autorská práva, bezpečnost */}
 						<div className="text-center">
 							<div className="w-16 h-16 bg-yellow-accent rounded-full mx-auto mb-4 flex items-center justify-center">
 								<span className="text-black font-nasalization font-bold text-2xl">
@@ -418,11 +612,42 @@ export default function HomePageContent() {
 								</span>
 							</div>
 							<h3 className="text-cream font-inter font-bold text-lg mb-2 leading-relaxed min-h-[60px] flex items-center justify-center">
-								GDPR, autorská práva, bezpečnost
+								Bezpečnost, GDPR, autorská práva
 							</h3>
-							<p className="font-inter">
-								Právní a bezpečnostní aspekty AI (okrajově)
+							<p className="font-inter mb-4 text-balance">
+								Používej AI bezpečně a v souladu s pravidly firmy i zákony
 							</p>
+							<Dialog>
+								<DialogTrigger asChild>
+									<Button
+										variant="outline"
+										size="sm"
+										className="border-yellow-accent text-yellow-accent hover:bg-yellow-accent hover:text-black bg-transparent font-inter"
+									>
+										Detail
+									</Button>
+								</DialogTrigger>
+								<DialogContent className="bg-[#2D0A31] border-yellow-accent/20 text-cream sm:max-w-[425px]">
+									<DialogHeader>
+										<DialogTitle className="font-nasalization text-yellow-accent">
+											GDPR, autorská práva, bezpečnost
+										</DialogTitle>
+										<DialogDescription className="text-cream/80 font-inter">
+											Co se v tomto modulu naučíš?
+										</DialogDescription>
+									</DialogHeader>
+									<ul className="py-4 font-inter text-left list-disc list-inside space-y-2">
+										<li>
+											Zorientuješ se v právních a bezpečnostních aspektech
+											používání AI.
+										</li>
+										<li>
+											Zjistíš, jak je to s autorskými právy u výstupů z AI.
+										</li>
+										<li>Naučíš se bezpečně pracovat s citlivými daty.</li>
+									</ul>
+								</DialogContent>
+							</Dialog>
 						</div>
 					</div>
 					<div className="text-center mt-12">
@@ -449,8 +674,11 @@ export default function HomePageContent() {
 						Nezůstávej pozadu. Začni svou cestu k mistrovství v AI ještě dnes.
 					</p>
 					<div className="relative bg-purple-light/20 border border-purple-light/30 rounded-lg aspect-video flex items-center justify-center mb-8">
-						<button className="w-20 h-20 bg-[#FFFBEB] rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors">
-							<div className="w-0 h-0 border-l-[20px] border-l-black border-y-[12px] border-y-transparent ml-1"></div>
+						<button
+							type="button"
+							className="w-20 h-20 bg-[#FFFBEB] rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors"
+						>
+							<div className="w-0 h-0 border-l-[20px] border-l-black border-y-[12px] border-y-transparent ml-1" />
 						</button>
 					</div>
 					<a
