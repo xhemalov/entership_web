@@ -14,6 +14,7 @@ export default function AvailableDatesSection() {
 		<section
 			id="available-dates"
 			className="bg-purple-main px-6 py-16 lg:px-12 scroll-mt-24"
+			style={{ viewTimelineName: "--available-dates" } as React.CSSProperties}
 		>
 			<div className="max-w-full mx-auto">
 				<h2 className="text-3xl uppercase lg:text-5xl font-nasalization font-bold text-foreground text-center mb-16 leading-normal-xl">

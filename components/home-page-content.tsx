@@ -19,7 +19,10 @@ const DISCOUNT_END = new Date(2025, 11, 24); // Month is 0-indexed (11 = Decembe
 
 export default function HomePageContent() {
 	return (
-		<div className="min-h-screen bg-purple-main text-cream">
+		<div
+			className="min-h-screen bg-purple-main text-cream"
+			style={{ timelineScope: "--available-dates" } as React.CSSProperties}
+		>
 			<header className="sticky top-0 z-50">
 				<Navbar />
 				<CountdownBar discountEnd={DISCOUNT_END} />

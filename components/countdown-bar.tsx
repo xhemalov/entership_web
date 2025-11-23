@@ -21,7 +21,17 @@ export default function CountdownBar({ discountEnd }: CountdownBarProps) {
 			: `Zaváděcí cena platí ještě ${diffDays} dní.`;
 
 	return (
-		<div className="w-full bg-cream text-purple-main py-2 text-center font-inter font-medium text-sm border-b border-purple-light/10 countdown-bar-scroll px-6 lg:px-12">
+		<div
+			className="w-full bg-cream text-purple-main text-center font-inter font-medium text-sm border-b border-purple-light/10 countdown-bar-scroll px-6 lg:px-12 overflow-hidden"
+			style={
+				{
+					animationName: "countdown-bg-change, hide-bar",
+					animationTimeline: "scroll(), --available-dates",
+					animationRange: "0px 200px, entry 0% entry 20%",
+					animationFillMode: "forwards, forwards",
+				} as React.CSSProperties
+			}
+		>
 			{text}
 		</div>
 	);
