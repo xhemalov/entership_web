@@ -238,9 +238,13 @@ export default function AboutPageContent() {
 
 			<section className="px-6 py-16 lg:px-12 bg-purple-main">
 				<div className="max-w-6xl mx-auto">
-					<h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-foreground text-center mb-16 leading-normal-xl">
+					<h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-foreground text-center mb-8 leading-normal-xl">
 						Náš tým
 					</h2>
+					<p className="text-center text-cream/80 max-w-2xl mx-auto mb-16 font-inter text-lg">
+						Za Entership stojí lidi, kteří AI fakt používají v praxi - a pak z
+						toho dělají kurzy, které nejsou bullshit.
+					</p>
 
 					<div className="grid md:grid-cols-3 gap-8">
 						<div className="group">
@@ -255,11 +259,14 @@ export default function AboutPageContent() {
 								Petr Glaser
 							</h3>
 							<p className="text-yellow-accent font-medium mb-4">
-								Founder & Lektor
+								Co-founder & AI lektor
 							</p>
 							<p className="font-inter text-cream/80 text-sm leading-relaxed">
-								Fanatik AI a produktivity. Učím lidi, jak nepracovat tvrdě, ale
-								chytře. Miluju, když vidím ten "aha!" moment v očích studentů.
+								Petr je technický mozek Entership. Nové AI vychytávky nejdřív
+								zkouší na vlastní práci - a teprve potom z nich dělá praktické
+								lekce. Místo nekonečné automatizace řeší hlavně rychlé a
+								efektivní zkratky, chytré prompty a workflow, která dávají smysl
+								v reálné práci.
 							</p>
 						</div>
 
@@ -276,11 +283,14 @@ export default function AboutPageContent() {
 								Lýdie
 							</h3>
 							<p className="text-yellow-accent font-medium mb-4">
-								Community & Support
+								Co-founder & Student Care / Operations
 							</p>
 							<p className="font-inter text-cream/80 text-sm leading-relaxed">
-								Duše komunity. Pomáhám nováčkům překonat první překážky a cítit
-								se v IT světě jako doma. Bývalý junior, teď opora.
+								Lýdie je ta, díky které celé Entership drží pohromadě. Řeší
+								administrativu, komunikaci, přístupy, faktury i spokojenost
+								účastníků. Zároveň funguje jako naše hlavní testerka - všechno
+								si na sobě vyzkouší a rozbije dřív, než to pustíme ven, aby
+								kurzy byly co nejvíc lidské a použitelné.
 							</p>
 						</div>
 
@@ -293,14 +303,16 @@ export default function AboutPageContent() {
 								/>{" "}
 							</div>
 							<h3 className="text-2xl font-bold font-inter text-[#FFFBEB] mb-1">
-								Pavel
+								Pavel Koudelka
 							</h3>
 							<p className="text-yellow-accent font-medium mb-4">
-								Co-Founder & Operations
+								Co-founder & Business & Partnerships
 							</p>
 							<p className="font-inter text-cream/80 text-sm leading-relaxed">
-								Ten, kdo drží chaos na uzdě. Starám se o to, aby všechno běželo
-								hladce a studenti měli vše, co potřebují. BlaBlaCar osud.
+								Pavel pomáhá Entership propojovat se světem firem. Má za sebou
+								roky sales zkušeností v e-commerce a řeší s námi hlavně
+								spolupráce a B2B domluvy. Když nám píše firma, je velká šance,
+								že na druhé straně uvidí právě jeho.
 							</p>
 						</div>
 					</div>
