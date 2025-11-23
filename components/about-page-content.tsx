@@ -1,6 +1,7 @@
 "use client";
 
 import FooterSection from "@/components/footer-section";
+import Navbar from "@/components/navbar";
 import TestimonialsCarousel from "@/components/testimonials-carousel";
 import {
 	Brain,
@@ -18,38 +19,7 @@ export default function AboutPageContent() {
 	return (
 		<div className="min-h-screen bg-purple-main text-cream">
 			{/* Navigation */}
-			<nav className="sticky top-0 z-50 flex items-center justify-between px-6 py-4 lg:px-12 bg-purple-main border-b border-purple-light/10">
-				<a href="/">
-					<img
-						src="https://assets.macaly-user-data.dev/cdn-cgi/image/format=webp,width=2000,height=2000,fit=scale-down,quality=90,anim=true/h78douel905nwuxnwh8o3ggu/fs3w9kis8argxhrbeysyrfjn/bHLqutq0N2XjQ9sEPOwDk/logo-entership-no-background-white.png"
-						alt="Entership Logo"
-						className="h-12 w-auto"
-					/>
-				</a>
-				<div className="hidden md:flex items-center space-x-8 text-cream font-inter">
-					<a
-						href="/#available-dates"
-						className="hover:text-yellow-accent transition-colors"
-					>
-						KURZY
-					</a>
-					<a href="/o-nas" className="text-yellow-accent transition-colors">
-						O NÁS
-					</a>
-					<a
-						href="/kontakt"
-						className="hover:text-yellow-accent transition-colors"
-					>
-						KONTAKT
-					</a>
-					<a
-						href="/#available-dates"
-						className="bg-button-cream text-black px-6 py-2 rounded-xl font-medium hover:bg-yellow-100 transition-colors"
-					>
-						PŘIHLÁSIT SE
-					</a>
-				</div>
-			</nav>
+			<Navbar />
 
 			{/* Hero Section */}
 			<section className="px-6 py-16 lg:px-12 lg:py-24 bg-purple-main relative overflow-hidden">
@@ -67,7 +37,7 @@ export default function AboutPageContent() {
 						</p>
 						<a
 							href="#pribeh"
-							className="inline-block uppercase bg-button-cream text-black px-8 py-4 rounded-xl font-inter font-semibold text-lg hover:bg-yellow-100 transition-colors"
+							className="inline-block uppercase bg-button-cream text-[#701A75] px-8 py-4 rounded-xl font-inter font-semibold text-lg hover:bg-yellow-100 transition-colors"
 						>
 							Poznej Entership
 						</a>
@@ -128,7 +98,7 @@ export default function AboutPageContent() {
 							Ne proto, že jsme změnili směr. Ale proto, že kvalitní vzdělávání
 							je užitečné komukoli, kdo chce růst.
 						</p>
-						<p className="text-xl font-bold text-white border-l-4 border-yellow-accent pl-6 py-2 my-8">
+						<p className="text-xl font-bold text-[#FFFBEB] border-l-4 border-yellow-accent pl-6 py-2 my-8">
 							A tak vznikl Entership - místo, kde může růst kdokoliv, kdo chce
 							držet krok s technologiemi.
 						</p>
@@ -148,10 +118,10 @@ export default function AboutPageContent() {
 
 					<div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 						<div className="bg-[#FFFBEB]/15 border border-purple-light/20 p-8 rounded-2xl hover:border-yellow-accent/50 transition-colors">
-							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
-								<Rocket className="w-6 h-6 text-black" />
+							<div className="w-12 h-12 bg-transparent border border-yellow-accent rounded-lg flex items-center justify-center mb-6">
+								<Rocket className="w-6 h-6 text-yellow-accent" />
 							</div>
-							<h3 className="text-xl font-bold font-nasalization text-white mb-4">
+							<h3 className="text-xl font-bold font-nasalization text-[#FFFBEB] mb-4">
 								Učíme prakticky, ne akademicky
 							</h3>
 							<p className="font-inter text-cream/80">
@@ -161,10 +131,10 @@ export default function AboutPageContent() {
 						</div>
 
 						<div className="bg-[#FFFBEB]/15 border border-purple-light/20 p-8 rounded-2xl hover:border-yellow-accent/50 transition-colors">
-							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
-								<Smile className="w-6 h-6 text-black" />
+							<div className="w-12 h-12 bg-transparent border border-yellow-accent rounded-lg flex items-center justify-center mb-6">
+								<Smile className="w-6 h-6 text-yellow-accent" />
 							</div>
-							<h3 className="text-xl font-bold font-nasalization text-white mb-4">
+							<h3 className="text-xl font-bold font-nasalization text-[#FFFBEB] mb-4">
 								Vysvětlujeme lidsky (a s humorem)
 							</h3>
 							<p className="font-inter text-cream/80">
@@ -174,10 +144,10 @@ export default function AboutPageContent() {
 						</div>
 
 						<div className="bg-[#FFFBEB]/15 border border-purple-light/20 p-8 rounded-2xl hover:border-yellow-accent/50 transition-colors">
-							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
-								<Zap className="w-6 h-6 text-black" />
+							<div className="w-12 h-12 bg-transparent border border-yellow-accent rounded-lg flex items-center justify-center mb-6">
+								<Zap className="w-6 h-6 text-yellow-accent" />
 							</div>
-							<h3 className="text-xl font-bold font-nasalization text-white mb-4">
+							<h3 className="text-xl font-bold font-nasalization text-[#FFFBEB] mb-4">
 								Pomáháme růst - nevedeme za ručičku
 							</h3>
 							<p className="font-inter text-cream/80">
@@ -188,10 +158,10 @@ export default function AboutPageContent() {
 						</div>
 
 						<div className="bg-[#FFFBEB]/15 border border-purple-light/20 p-8 rounded-2xl hover:border-yellow-accent/50 transition-colors">
-							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
-								<Cpu className="w-6 h-6 text-black" />
+							<div className="w-12 h-12 bg-transparent border border-yellow-accent rounded-lg flex items-center justify-center mb-6">
+								<Cpu className="w-6 h-6 text-yellow-accent" />
 							</div>
-							<h3 className="text-xl font-bold font-nasalization text-white mb-4">
+							<h3 className="text-xl font-bold font-nasalization text-[#FFFBEB] mb-4">
 								Moderní technologie a žádný bullshit
 							</h3>
 							<p className="font-inter text-cream/80">
@@ -202,10 +172,10 @@ export default function AboutPageContent() {
 						</div>
 
 						<div className="bg-[#FFFBEB]/15 border border-purple-light/20 p-8 rounded-2xl hover:border-yellow-accent/50 transition-colors">
-							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
-								<Coffee className="w-6 h-6 text-black" />
+							<div className="w-12 h-12 bg-transparent border border-yellow-accent rounded-lg flex items-center justify-center mb-6">
+								<Coffee className="w-6 h-6 text-yellow-accent" />
 							</div>
-							<h3 className="text-xl font-bold font-nasalization text-white mb-4">
+							<h3 className="text-xl font-bold font-nasalization text-[#FFFBEB] mb-4">
 								Jsme nerdi tělem i duší
 							</h3>
 							<p className="font-inter text-cream/80">
@@ -215,10 +185,10 @@ export default function AboutPageContent() {
 						</div>
 
 						<div className="bg-[#FFFBEB]/15 border border-purple-light/20 p-8 rounded-2xl hover:border-yellow-accent/50 transition-colors">
-							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
-								<Lightbulb className="w-6 h-6 text-black" />
+							<div className="w-12 h-12 bg-transparent border border-yellow-accent rounded-lg flex items-center justify-center mb-6">
+								<Lightbulb className="w-6 h-6 text-yellow-accent" />
 							</div>
-							<h3 className="text-xl font-bold font-nasalization text-white mb-4">
+							<h3 className="text-xl font-bold font-nasalization text-[#FFFBEB] mb-4">
 								Žádné hloupé otázky
 							</h3>
 							<p className="font-inter text-cream/80">
@@ -228,10 +198,10 @@ export default function AboutPageContent() {
 						</div>
 
 						<div className="bg-[#FFFBEB]/15 border border-purple-light/20 p-8 rounded-2xl hover:border-yellow-accent/50 transition-colors">
-							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
-								<Brain className="w-6 h-6 text-black" />
+							<div className="w-12 h-12 bg-transparent border border-yellow-accent rounded-lg flex items-center justify-center mb-6">
+								<Brain className="w-6 h-6 text-yellow-accent" />
 							</div>
-							<h3 className="text-xl font-bold font-nasalization text-white mb-4">
+							<h3 className="text-xl font-bold font-nasalization text-[#FFFBEB] mb-4">
 								Zpětná vazba, co posouvá
 							</h3>
 							<p className="font-inter text-cream/80">
@@ -241,10 +211,10 @@ export default function AboutPageContent() {
 						</div>
 
 						<div className="bg-[#FFFBEB]/15 border border-purple-light/20 p-8 rounded-2xl hover:border-yellow-accent/50 transition-colors">
-							<div className="w-12 h-12 bg-yellow-accent rounded-lg flex items-center justify-center mb-6">
-								<Users className="w-6 h-6 text-black" />
+							<div className="w-12 h-12 bg-transparent border border-yellow-accent rounded-lg flex items-center justify-center mb-6">
+								<Users className="w-6 h-6 text-yellow-accent" />
 							</div>
-							<h3 className="text-xl font-bold font-nasalization text-white mb-4">
+							<h3 className="text-xl font-bold font-nasalization text-[#FFFBEB] mb-4">
 								Učíme se navzájem
 							</h3>
 							<p className="font-inter text-cream/80">
@@ -257,7 +227,7 @@ export default function AboutPageContent() {
 			</section>
 
 			{/* Emotional Statement Strip */}
-			<section className="py-16 bg-button-cream text-black text-center px-6">
+			<section className="py-16 bg-button-cream text-[#701A75] text-center px-6">
 				<div className="max-w-4xl mx-auto">
 					<h3 className="text-2xl md:text-4xl font-nasalization font-bold leading-relaxed">
 						„Jsme sehraný tým, který miluje technologie. A ty se můžeš stát jeho
@@ -281,7 +251,7 @@ export default function AboutPageContent() {
 									className="w-full h-full object-cover"
 								/>
 							</div>
-							<h3 className="text-2xl font-bold font-inter text-white mb-1">
+							<h3 className="text-2xl font-bold font-inter text-[#FFFBEB] mb-1">
 								Petr Glaser
 							</h3>
 							<p className="text-yellow-accent font-medium mb-4">
@@ -301,7 +271,7 @@ export default function AboutPageContent() {
 									className="w-full h-full object-cover"
 								/>{" "}
 							</div>
-							<h3 className="text-2xl font-bold font-inter text-white mb-1">
+							<h3 className="text-2xl font-bold font-inter text-[#FFFBEB] mb-1">
 								Pavel
 							</h3>
 							<p className="text-yellow-accent font-medium mb-4">
@@ -313,12 +283,16 @@ export default function AboutPageContent() {
 							</p>
 						</div>
 
-						{/* Lýdie (Placeholder) */}
+						{/* Lýdie */}
 						<div className="group">
-							<div className="aspect-square bg-purple-light/20 rounded-2xl overflow-hidden mb-6 border-2 border-transparent group-hover:border-yellow-accent transition-all flex items-center justify-center">
-								<Heart className="w-20 h-20 text-purple-light/40" />
+							<div className="aspect-square rounded-2xl overflow-hidden mb-6 border-2 border-transparent group-hover:border-yellow-accent transition-all">
+								<img
+									src="/lydie.jpg"
+									alt="Lýdie"
+									className="w-full h-full object-cover scale-[3]"
+								/>
 							</div>
-							<h3 className="text-2xl font-bold font-inter text-white mb-1">
+							<h3 className="text-2xl font-bold font-inter text-[#FFFBEB] mb-1">
 								Lýdie
 							</h3>
 							<p className="text-yellow-accent font-medium mb-4">
@@ -339,7 +313,7 @@ export default function AboutPageContent() {
 			{/* CTA Block */}
 			<section className="px-6 py-16 lg:px-12">
 				<div className="max-w-4xl mx-auto">
-					<div className="bg-[#FFFBEB]/15 border border-white rounded-lg p-12 md:p-16 text-center mb-8">
+					<div className="bg-[#FFFBEB]/15 border border-[#FFFBEB] rounded-lg p-12 md:p-16 text-center mb-8">
 						<h2 className="text-2xl md:text-4xl font-nasalization font-bold text-[#4DEEEA] leading-relaxed uppercase tracking-wide">
 							MÁŠ MOŘE ZKUŠENOSTÍ A<br className="hidden md:block" />
 							CHCEŠ SE O KAPKU PODĚLIT?
@@ -351,7 +325,7 @@ export default function AboutPageContent() {
 					<div className="text-center">
 						<a
 							href="mailto:petr.glaser@entership.cz"
-							className="inline-block bg-button-cream text-black px-12 py-4 rounded-lg font-inter font-bold text-lg hover:bg-yellow-100 transition-colors uppercase tracking-wide"
+							className="inline-block bg-button-cream text-[#701A75] px-12 py-4 rounded-lg font-inter font-bold text-lg hover:bg-yellow-100 transition-colors uppercase tracking-wide"
 						>
 							CHCI BÝT LEKTOREM
 						</a>
@@ -370,7 +344,7 @@ export default function AboutPageContent() {
 					</p>
 					<a
 						href="/kontakt"
-						className="inline-block uppercase bg-button-cream text-black px-8 py-4 rounded-xl font-inter font-bold text-lg hover:bg-yellow-100 transition-colors"
+						className="inline-block uppercase bg-button-cream text-[#701A75] px-8 py-4 rounded-xl font-inter font-bold text-lg hover:bg-yellow-100 transition-colors"
 					>
 						Kontaktuj nás
 					</a>

@@ -2,43 +2,12 @@ import TestimonialsCarousel from "@/components/testimonials-carousel";
 import FAQSection from "@/components/faq-section";
 import FooterSection from "@/components/footer-section";
 import AvailableDatesSection from "@/components/available-dates-section";
+import Navbar from "@/components/navbar";
 
 export default function HomePageContent() {
 	return (
 		<div className="min-h-screen bg-purple-main text-cream">
-			<nav className="sticky top-0 z-50 flex items-center justify-between px-6 py-4 lg:px-12 bg-purple-main border-b border-purple-light/10">
-				<img
-					src="https://assets.macaly-user-data.dev/cdn-cgi/image/format=webp,width=2000,height=2000,fit=scale-down,quality=90,anim=true/h78douel905nwuxnwh8o3ggu/fs3w9kis8argxhrbeysyrfjn/bHLqutq0N2XjQ9sEPOwDk/logo-entership-no-background-white.png"
-					alt="Entership Logo"
-					className="h-12 w-auto"
-				/>
-				<div className="hidden md:flex items-center space-x-8 text-cream font-inter">
-					<a
-						href="#available-dates"
-						className="hover:text-yellow-accent transition-colors"
-					>
-						KURZY
-					</a>
-					<a
-						href="/o-nas"
-						className="hover:text-yellow-accent transition-colors"
-					>
-						O NÁS
-					</a>
-					<a
-						href="/kontakt"
-						className="hover:text-yellow-accent transition-colors"
-					>
-						KONTAKT
-					</a>
-					<a
-						href="/#available-dates"
-						className="bg-button-cream text-black px-6 py-2 rounded-xl font-medium hover:bg-yellow-100 transition-colors"
-					>
-						PŘIHLÁSIT SE
-					</a>
-				</div>
-			</nav>
+			<Navbar />
 
 			{/* Hero Section */}
 			<section className="px-6 py-16 lg:px-12 lg:py-24 bg-purple-main">
@@ -55,7 +24,7 @@ export default function HomePageContent() {
 						</p>
 						<a
 							href="#available-dates"
-							className="inline-block bg-button-cream text-black px-8 py-4 rounded-xl font-inter font-semibold text-lg hover:bg-yellow-100 transition-colors"
+							className="inline-block bg-button-cream text-[#701A75] px-8 py-4 rounded-xl font-inter font-semibold text-lg hover:bg-yellow-100 transition-colors"
 						>
 							Jdu do toho
 						</a>
@@ -368,7 +337,7 @@ export default function HomePageContent() {
 						Pojď se potkat s lektorem Petrem
 					</h2>
 					<div className="relative bg-purple-light/20 border border-purple-light/30 rounded-lg aspect-video flex items-center justify-center">
-						<button className="w-20 h-20 bg-white rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors">
+						<button className="w-20 h-20 bg-[#FFFBEB] rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors">
 							<div className="w-0 h-0 border-l-[20px] border-l-black border-y-[12px] border-y-transparent ml-1"></div>
 						</button>
 					</div>
@@ -459,7 +428,7 @@ export default function HomePageContent() {
 					<div className="text-center mt-12">
 						<a
 							href="#available-dates"
-							className="inline-block bg-button-cream text-black px-8 py-4 rounded-xl font-inter font-semibold text-lg hover:bg-yellow-100 transition-colors"
+							className="inline-block bg-button-cream text-[#701A75] px-8 py-4 rounded-xl font-inter font-semibold text-lg hover:bg-yellow-100 transition-colors"
 						>
 							Rozjeď to s AI
 						</a>
@@ -480,15 +449,15 @@ export default function HomePageContent() {
 						Nezůstávej pozadu. Začni svou cestu k mistrovství v AI ještě dnes.
 					</p>
 					<div className="relative bg-purple-light/20 border border-purple-light/30 rounded-lg aspect-video flex items-center justify-center mb-8">
-						<button className="w-20 h-20 bg-white rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors">
+						<button className="w-20 h-20 bg-[#FFFBEB] rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors">
 							<div className="w-0 h-0 border-l-[20px] border-l-black border-y-[12px] border-y-transparent ml-1"></div>
 						</button>
 					</div>
 					<a
 						href="#available-dates"
-						className="inline-block uppercase bg-button-cream text-black px-12 py-6 rounded-xl font-inter font-bold text-xl hover:bg-yellow-100 transition-colors"
+						className="inline-block uppercase bg-button-cream text-[#701A75] px-12 py-6 rounded-xl font-inter font-bold text-xl hover:bg-yellow-100 transition-colors"
 					>
-						Pozadu? Ani náhodou, jdu do toho!
+						Jdu do toho!
 					</a>
 				</div>
 			</section>
@@ -508,7 +477,7 @@ export default function HomePageContent() {
 								/>
 							</div>
 							<div className="w-full md:w-1/2 p-8 flex flex-col justify-center">
-								<h3 className="text-black font-inter font-bold text-2xl mb-2 leading-relaxed-xl">
+								<h3 className="text-[#701A75] font-inter font-bold text-2xl mb-2 leading-relaxed-xl">
 									Petr Glaser
 								</h3>
 								<p className="text-purple-main font-inter font-bold text-sm mb-2">
@@ -516,11 +485,11 @@ export default function HomePageContent() {
 								</p>
 								<a
 									href="mailto:petr.glaser@entership.cz"
-									className="text-black/80 font-inter text-sm mb-6 hover:text-purple-main transition-colors"
+									className="text-[#701A75]/80 font-inter text-sm mb-6 hover:text-purple-main transition-colors"
 								>
 									petr.glaser@entership.cz
 								</a>
-								<div className="font-inter text-sm leading-relaxed space-y-4 text-black/90">
+								<div className="font-inter text-sm leading-relaxed space-y-4 text-[#701A75]/90">
 									<p>
 										Fanatik AI a produktivity vývojářů. I tak je Petr označován
 										(nejen) sám sebou, ale i jeho kolegy a přáteli. Jeho nadšení

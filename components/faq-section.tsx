@@ -22,7 +22,7 @@ const LightningIcon = () => (
 		className="w-6 h-6"
 		viewBox="0 0 24 24"
 		fill="none"
-		stroke="black"
+		stroke="currentColor"
 		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
@@ -36,7 +36,7 @@ const TargetIcon = () => (
 		className="w-6 h-6"
 		viewBox="0 0 24 24"
 		fill="none"
-		stroke="black"
+		stroke="currentColor"
 		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
@@ -52,7 +52,7 @@ const ToolsIcon = () => (
 		className="w-6 h-6"
 		viewBox="0 0 24 24"
 		fill="none"
-		stroke="black"
+		stroke="currentColor"
 		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
@@ -66,7 +66,7 @@ const TrophyIcon = () => (
 		className="w-6 h-6"
 		viewBox="0 0 24 24"
 		fill="none"
-		stroke="black"
+		stroke="currentColor"
 		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
@@ -84,7 +84,7 @@ const ChatIcon = () => (
 		className="w-6 h-6"
 		viewBox="0 0 24 24"
 		fill="none"
-		stroke="black"
+		stroke="currentColor"
 		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
@@ -98,7 +98,7 @@ const UsersIcon = () => (
 		className="w-6 h-6"
 		viewBox="0 0 24 24"
 		fill="none"
-		stroke="black"
+		stroke="currentColor"
 		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
@@ -115,7 +115,7 @@ const CalendarIcon = () => (
 		className="w-6 h-6"
 		viewBox="0 0 24 24"
 		fill="none"
-		stroke="black"
+		stroke="currentColor"
 		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
@@ -289,13 +289,13 @@ export default function FAQSection({
 							value={`item-${index}`}
 							className="bg-button-cream border-0 rounded-lg px-6 hover:bg-button-cream-hover"
 						>
-							<AccordionTrigger className="text-black font-inter font-semibold text-left">
+							<AccordionTrigger className="text-[#701A75] font-inter font-semibold text-left">
 								<div className="flex items-center gap-3">
 									{faq.icon}
 									<span>{faq.question}</span>
 								</div>
 							</AccordionTrigger>
-							<AccordionContent className="text-black font-inter leading-relaxed">
+							<AccordionContent className="text-[#701A75] font-inter leading-relaxed">
 								{faq.answer}
 							</AccordionContent>
 						</AccordionItem>
