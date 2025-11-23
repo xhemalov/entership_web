@@ -11,7 +11,7 @@ export default function Navbar() {
 	};
 
 	return (
-		<nav className="sticky top-0 z-50 bg-purple-main border-b border-purple-light/10">
+		<nav className="bg-purple-main border-b border-purple-light/10 relative">
 			<div className="flex items-center justify-between px-6 py-4 lg:px-12">
 				<a href="/">
 					<img
@@ -55,7 +55,11 @@ export default function Navbar() {
 					onClick={toggleMenu}
 					aria-label="Toggle menu"
 				>
-					{isMenuOpen ? <X className="w-8 h-8" /> : <Menu className="w-8 h-8" />}
+					{isMenuOpen ? (
+						<X className="w-8 h-8" />
+					) : (
+						<Menu className="w-8 h-8" />
+					)}
 				</button>
 			</div>
 

@@ -140,7 +140,7 @@ export default function FAQSection({
 			icon: <LightningIcon />,
 			question: "Jak bude probíhat celý program",
 			answer:
-				"Kohorta jede 4 týdny v jasném rytmu. Každý týden nový obsah, úkoly a společný progres. Žádné bloudění, žádné “co mám dělat dál?”. Máš jasný plán a crew, která letí s tebou.",
+				"Kohorta jede 5 týdnů v jasném rytmu. Každý týden nový obsah, úkoly a společný progres. Žádné bloudění, žádné “co mám dělat dál?”. Máš jasný plán a crew, která letí s tebou.",
 		},
 		{
 			icon: <TargetIcon />,

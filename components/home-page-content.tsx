@@ -3,6 +3,7 @@ import FAQSection from "@/components/faq-section";
 import FooterSection from "@/components/footer-section";
 import AvailableDatesSection from "@/components/available-dates-section";
 import Navbar from "@/components/navbar";
+import CountdownBar from "@/components/countdown-bar";
 import {
 	Dialog,
 	DialogContent,
@@ -13,10 +14,15 @@ import {
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 
+const DISCOUNT_END = new Date(2025, 11, 24); // Month is 0-indexed (11 = December)
+
 export default function HomePageContent() {
 	return (
 		<div className="min-h-screen bg-purple-main text-cream">
-			<Navbar />
+			<header className="sticky top-0 z-50">
+				<Navbar />
+				<CountdownBar discountEnd={DISCOUNT_END} />
+			</header>
 
 			{/* Hero Section */}
 			<section className="px-6 py-16 lg:px-12 lg:py-24 bg-purple-main">

@@ -146,7 +146,7 @@ export default function AvailableDatesSection() {
 											/>
 										</svg>
 										<span className="text-balance">
-											4 týdny praktického vedení
+											5 týdnů praktického vedení
 										</span>
 									</div>
 									<div className="flex items-start gap-3">

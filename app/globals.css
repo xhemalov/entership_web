@@ -94,3 +94,15 @@
 body > nextjs-portal {
 	display: none;
 }
+
+@keyframes countdown-bg-change {
+	to {
+		background-color: #fde047; /* yellow-accent */
+	}
+}
+
+.countdown-bar-scroll {
+	animation: countdown-bg-change linear forwards;
+	animation-timeline: scroll();
+	animation-range: 0px 200px;
+}
