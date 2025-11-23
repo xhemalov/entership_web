@@ -1,14 +1,40 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import FAQSection from "@/components/faq-section";
 import DiscountCountdown from "@/components/discount-countdown";
 import WaitlistSection from "@/components/waitlist-section";
 
 const DISCOUNT_END = new Date(2025, 11, 24); // Month is 0-indexed (11 = December)
 
+// Configuration for introductory pricing
+const ENABLE_INTRO_PRICE = true;
+const INTRO_PRICE_DATE = `${DISCOUNT_END.getDate()}. ${DISCOUNT_END.getMonth() + 1}. ${DISCOUNT_END.getFullYear()}`;
+
+const KOHORTA_PRICE_STANDARD = "4 990 Kč";
+const KOHORTA_PRICE_INTRO = "3 990 Kč";
+
+const FLEX_PRICE_STANDARD = "1 990 Kč";
+const FLEX_PRICE_INTRO = "1 490 Kč";
+
 export default function AvailableDatesSection() {
 	const [isToggled, setIsToggled] = useState(false);
+	const [isExpired, setIsExpired] = useState(false);
+
+	useEffect(() => {
+		// Check if the discount has expired
+		const checkExpiration = () => {
+			const now = new Date();
+			setIsExpired(now > DISCOUNT_END);
+		};
+
+		checkExpiration();
+		// Optional: interval to check periodically if the user stays on the page
+		const timer = setInterval(checkExpiration, 1000);
+		return () => clearInterval(timer);
+	}, []);
+
+	const showIntroPrice = ENABLE_INTRO_PRICE && !isExpired;
 
 	return (
 		<section
@@ -231,12 +257,28 @@ export default function AvailableDatesSection() {
 
 							{/* Price */}
 							<div className="mb-6">
-								<div className="text-yellow-accent font-nasalization font-bold text-4xl mb-1">
-									4 990 Kč
-								</div>
-								<p className="text-cream/60 font-inter text-xs">
-									Jednorázová platba
-								</p>
+								{showIntroPrice ? (
+									<>
+										<div className="text-yellow-accent font-nasalization font-bold text-4xl mb-1">
+											{KOHORTA_PRICE_INTRO}
+										</div>
+										<div className="text-cream/60 font-inter text-lg line-through mb-2">
+											{KOHORTA_PRICE_STANDARD} standardní cena
+										</div>
+										<p className="text-cream/80 font-inter text-xs">
+											Zaváděcí cena platí do {INTRO_PRICE_DATE}.
+										</p>
+									</>
+								) : (
+									<>
+										<div className="text-yellow-accent font-nasalization font-bold text-4xl mb-1">
+											{KOHORTA_PRICE_STANDARD}
+										</div>
+										<p className="text-cream/60 font-inter text-xs">
+											Jednorázová platba
+										</p>
+									</>
+								)}
 							</div>
 
 							{/* CTA Button */}
@@ -385,12 +427,28 @@ export default function AvailableDatesSection() {
 
 							{/* Price */}
 							<div className="mb-6">
-								<div className="text-cream font-nasalization font-bold text-4xl mb-1">
-									1 990 Kč
-								</div>
-								<p className="text-cream/60 font-inter text-xs">
-									Jednorázová platba
-								</p>
+								{showIntroPrice ? (
+									<>
+										<div className="text-cream font-nasalization font-bold text-4xl mb-1">
+											{FLEX_PRICE_INTRO}
+										</div>
+										<div className="text-cream/60 font-inter text-lg line-through mb-2">
+											{FLEX_PRICE_STANDARD} standardní cena
+										</div>
+										<p className="text-cream/80 font-inter text-xs">
+											Zaváděcí cena platí do {INTRO_PRICE_DATE}.
+										</p>
+									</>
+								) : (
+									<>
+										<div className="text-cream font-nasalization font-bold text-4xl mb-1">
+											{FLEX_PRICE_STANDARD}
+										</div>
+										<p className="text-cream/60 font-inter text-xs">
+											Jednorázová platba
+										</p>
+									</>
+								)}
 							</div>
 
 							{/* CTA Button */}
