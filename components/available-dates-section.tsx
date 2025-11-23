@@ -111,7 +111,7 @@ export default function AvailableDatesSection() {
 												d="M5 13l4 4L19 7"
 											/>
 										</svg>
-										<span className="text-balance">Osobní podpora lektora</span>
+										<span className="text-balance">Online podpora lektora</span>
 									</div>
 									<div className="flex items-start gap-3">
 										<svg
@@ -146,7 +146,7 @@ export default function AvailableDatesSection() {
 											/>
 										</svg>
 										<span className="text-balance">
-											4–5 týdnů praktického vedení
+											4 týdny praktického vedení
 										</span>
 									</div>
 									<div className="flex items-start gap-3">
@@ -199,9 +199,7 @@ export default function AvailableDatesSection() {
 												d="M5 13l4 4L19 7"
 											/>
 										</svg>
-										<span className="text-balance">
-											Aktuality a AI novinky e-mailem
-										</span>
+										<span className="text-balance">Aktuality a AI novinky</span>
 									</div>
 									<div className="flex items-start gap-3">
 										<svg
@@ -217,9 +215,7 @@ export default function AvailableDatesSection() {
 												d="M5 13l4 4L19 7"
 											/>
 										</svg>
-										<span className="text-balance">
-											Networking podle kapacity skupiny
-										</span>
+										<span className="text-balance">Online networking</span>
 									</div>
 								</div>
 							</div>
@@ -227,7 +223,7 @@ export default function AvailableDatesSection() {
 							{/* Price */}
 							<div className="mb-6">
 								<div className="text-yellow-accent font-nasalization font-bold text-4xl mb-1">
-									2.500 CZK
+									4 990 Kč
 								</div>
 								<p className="text-cream/60 font-inter text-xs">
 									Jednorázová platba
@@ -318,7 +314,7 @@ export default function AvailableDatesSection() {
 											/>
 										</svg>
 										<span className="text-balance">
-											Přístup ke všem videím a materiálům
+											Přístup ke všem lekcím a videím
 										</span>
 									</div>
 									<div className="flex items-start gap-3">
@@ -336,7 +332,7 @@ export default function AvailableDatesSection() {
 											/>
 										</svg>
 										<span className="text-balance">
-											Studuj podle sebe - bez stresu, bez termínů
+											Studuj dle sebe - bez stresu, bez termínů
 										</span>
 									</div>
 									<div className="flex items-start gap-3">
@@ -381,7 +377,7 @@ export default function AvailableDatesSection() {
 							{/* Price */}
 							<div className="mb-6">
 								<div className="text-cream font-nasalization font-bold text-4xl mb-1">
-									2.500 CZK
+									1 990 Kč
 								</div>
 								<p className="text-cream/60 font-inter text-xs">
 									Jednorázová platba
