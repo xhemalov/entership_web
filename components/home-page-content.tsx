@@ -1,4 +1,5 @@
 import TestimonialsCarousel from "@/components/testimonials-carousel";
+import NewsletterSection from "@/components/newsletter-section";
 import FAQSection from "@/components/faq-section";
 import FooterSection from "@/components/footer-section";
 import AvailableDatesSection from "@/components/available-dates-section";
@@ -66,21 +67,21 @@ export default function HomePageContent() {
 							<div className="flex items-start space-x-4">
 								<div className="w-2 h-2 bg-yellow-accent rounded-full mt-3 flex-shrink-0" />
 								<p className="font-inter">
-									AI už není sci-fi. Je to běžný pracovní nástroj – a kdo ji
+									AI už není sci-fi. Je to běžný pracovní nástroj - a kdo ji
 									neumí, maká zbytečně rukama.
 								</p>
 							</div>
 							<div className="flex items-start space-x-4">
 								<div className="w-2 h-2 bg-yellow-accent rounded-full mt-3 flex-shrink-0" />
 								<p className="font-inter">
-									Naučíme tě AI používat chytře – ne jen otevřít ChatGPT a
+									Naučíme tě AI používat chytře - ne jen otevřít ChatGPT a
 									doufat v zázrak.
 								</p>
 							</div>
 							<div className="flex items-start space-x-4">
 								<div className="w-2 h-2 bg-yellow-accent rounded-full mt-3 flex-shrink-0" />
 								<p className="font-inter">
-									Není to jen hračka pro ajťáky – používají ji markeťáci,
+									Není to jen hračka pro ajťáky - používají ji markeťáci,
 									projekťáci, designéři i mámy na mateřský.
 								</p>
 							</div>
@@ -96,7 +97,7 @@ export default function HomePageContent() {
 							<div className="flex items-start space-x-4">
 								<div className="w-2 h-2 bg-yellow-accent rounded-full mt-3 flex-shrink-0" />
 								<p className="font-inter">
-									Nebudeš lovit deset nejoblíbenějších promptů – naučíš se
+									Nebudeš lovit deset nejoblíbenějších promptů - naučíš se
 									vytvářet vlastní, které fakt fungují.
 								</p>
 							</div>
@@ -141,7 +142,7 @@ export default function HomePageContent() {
 							},
 							{
 								icon: "clock",
-								title: "2–3 hodiny týdně",
+								title: "2-3 hodiny týdně",
 								desc: "Stačí málo, ale pravidelně. AI je hlavně o vybudování mindsetu.",
 							},
 							{
@@ -745,6 +746,8 @@ export default function HomePageContent() {
 			</section>
 
 			<FAQSection title="FAQ" variant="general" />
+
+			<NewsletterSection />
 
 			<FooterSection />
 		</div>

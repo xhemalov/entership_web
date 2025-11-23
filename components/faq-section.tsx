@@ -230,7 +230,7 @@ export default function FAQSection({
 			icon: <CalendarIcon />,
 			question: "Kolik času mi kurz zabere?",
 			answer:
-				"Stačí 2–3 hodiny týdně. Víc pomůže, míň taky jde - hlavní je pravidelnost.",
+				"Stačí 2-3 hodiny týdně. Víc pomůže, míň taky jde - hlavní je pravidelnost.",
 		},
 		{
 			icon: <ChatIcon />,

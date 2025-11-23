@@ -56,7 +56,7 @@ export default function ContactPageContent() {
 							<DiscordLogo className="w-6 h-6 text-yellow-accent" />
 						</div>
 						<h3 className="text-2xl font-bold font-nasalization text-[#FFFBEB] mb-2">
-							Discord – naše hlavní základna
+							Discord - naše hlavní základna
 						</h3>
 						<p className="font-inter text-cream/80 mb-6">
 							Nejrychlejší cesta k nám. Komunita, podpora, novinky a lidé, co
@@ -78,7 +78,7 @@ export default function ContactPageContent() {
 							<Facebook className="w-6 h-6 text-yellow-accent" />
 						</div>
 						<h3 className="text-2xl font-bold font-nasalization text-[#FFFBEB] mb-2">
-							Facebook – novinky & akce
+							Facebook - novinky & akce
 						</h3>
 						<p className="font-inter text-cream/80 mb-6">
 							Streamy, komunitní eventy a užitečný obsah, který ti pomůže držet
@@ -100,7 +100,7 @@ export default function ContactPageContent() {
 							<Linkedin className="w-6 h-6 text-yellow-accent" />
 						</div>
 						<h3 className="text-2xl font-bold font-nasalization text-[#FFFBEB] mb-2">
-							LinkedIn – pro kariérní růst
+							LinkedIn - pro kariérní růst
 						</h3>
 						<p className="font-inter text-cream/80 mb-6">
 							Profesionální tipy, zákulisí, příležitosti a vhledy ze světa
@@ -122,7 +122,7 @@ export default function ContactPageContent() {
 							<Instagram className="w-6 h-6 text-yellow-accent" />
 						</div>
 						<h3 className="text-2xl font-bold font-nasalization text-[#FFFBEB] mb-2">
-							Instagram – Entership vibe
+							Instagram - Entership vibe
 						</h3>
 						<p className="font-inter text-cream/80 mb-6">
 							Backstage, memy, rychlé tipy a kousek našeho nerdího světa.

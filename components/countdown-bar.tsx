@@ -21,7 +21,7 @@ export default function CountdownBar({ discountEnd }: CountdownBarProps) {
 			: `Zaváděcí cena platí ještě ${diffDays} dní.`;
 
 	return (
-		<div className="w-full bg-cream text-purple-main py-2 text-center font-inter font-medium text-sm border-b border-purple-light/10 countdown-bar-scroll">
+		<div className="w-full bg-cream text-purple-main py-2 text-center font-inter font-medium text-sm border-b border-purple-light/10 countdown-bar-scroll px-6 lg:px-12">
 			{text}
 		</div>
 	);

@@ -2,6 +2,10 @@
 
 import { useState } from "react";
 import FAQSection from "@/components/faq-section";
+import DiscountCountdown from "@/components/discount-countdown";
+import WaitlistSection from "@/components/waitlist-section";
+
+const DISCOUNT_END = new Date(2025, 11, 24); // Month is 0-indexed (11 = December)
 
 export default function AvailableDatesSection() {
 	const [isToggled, setIsToggled] = useState(false);
@@ -11,10 +15,14 @@ export default function AvailableDatesSection() {
 			id="available-dates"
 			className="bg-purple-main px-6 py-16 lg:px-12 scroll-mt-24"
 		>
-			<div className="max-w-4xl mx-auto">
+			<div className="max-w-full mx-auto">
 				<h2 className="text-3xl uppercase lg:text-5xl font-nasalization font-bold text-foreground text-center mb-16 leading-normal-xl">
 					Volné termíny
 				</h2>
+
+				<div className="-mx-6 lg:-mx-12 mb-16">
+					<DiscountCountdown discountEnd={DISCOUNT_END} />
+				</div>
 
 				<div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto mb-12">
 					{/* Left Card - KOHORTA (fixed) */}
@@ -390,6 +398,10 @@ export default function AvailableDatesSection() {
 							</div>
 						</div>
 					</button>
+				</div>
+
+				<div className="-mx-6 lg:-mx-12 mb-16">
+					<WaitlistSection />
 				</div>
 
 				{/* First FAQ Section with toggle inside */}
