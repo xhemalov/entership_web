@@ -289,8 +289,10 @@ export default function AvailableDatesSection() {
 					</button>
 
 					{/* Right Card - FLEX (unchanged) */}
-					<button
-						type="button"
+					<a
+						href="https://entership-s-school.teachable.com/l/pdp/pochop-ai"
+						target="_blank"
+						rel="noopener noreferrer"
 						aria-label="Vybrat: Jen videa bez lektora"
 						className="relative bg-[#FFFBEB]/15 border border-[#FFFBEB]/30 rounded-2xl overflow-hidden hover:border-yellow-accent hover:shadow-xl hover:shadow-purple-light/10 transition-all duration-300 group w-full text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-accent/80 cursor-pointer flex flex-col"
 					>
@@ -456,7 +458,7 @@ export default function AvailableDatesSection() {
 								SPUSTIT STUDIUM
 							</div>
 						</div>
-					</button>
+					</a>
 				</div>
 
 				<div className="-mx-6 lg:-mx-12 mb-16">

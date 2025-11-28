@@ -11,29 +11,34 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 
 const testimonials = [
 	{
-		text: "Dříve jsem byl ve světě IT ztracen, ale od doby, co jsem na kurzech Entership, tak už nejsem! Kurz mi otevřel oči a ukázal, že AI není strašák, ale nástroj, který mi může ušetřit hodiny práce týdně. Lektoři jsou skvělí a vše vysvětlují lidsky.",
-		author: "Jan Novák",
-		role: "Marketing Manager",
+		text: "Spolupráci bych popsala slovy inovace, představení a interakce. Překvapilo mě množství různých nástrojů, které jsou k dispozici. Petrův kurz doporučuji všem, kdo chtějí toto AI šílenství stíhat a být trochu v obraze.",
+		author: "Lenka S.",
+		role: "",
 	},
 	{
-		text: "Entership mi pomohl pochopit, jak efektivně využívat AI v mé každodenní práci. Dříve jsem trávila hodiny psaním e-mailů a reportů, teď mi s tím pomáhá AI a já se můžu věnovat kreativnějším úkolům. Doporučuji všem, kdo chtějí držet krok s dobou.",
-		author: "Petra Svobodová",
-		role: "HR Specialist",
+		text: "Workshopy určitě doporučuji, aby si lidé udělali přehled o AI a zjistili, jak ji využívat ve své práci. Získal jsem spoustu odkazů na nové nástroje, které jsem předtím neznal.",
+		author: "Petr K.",
+		role: "",
 	},
 	{
-		text: "Nejlepší investice do vzdělání za poslední roky. Kurz je praktický, žádná zbytečná teorie. Hned druhý den jsem začal používat naučené postupy v praxi a kolegové se nestačili divit, jak jsem zrychlil. Díky moc celému týmu!",
-		author: "Tomáš Dvořák",
-		role: "Project Manager",
+		text: "Díky kurzu dnes AI používám efektivněji. Rozumím nástrojům, se kterými jsem už dřív pracoval, a dokážu si představit jejich využití jak v osobním, tak profesním životě.",
+		author: "Filip L.",
+		role: "",
 	},
 	{
-		text: "Skvělý přístup lektorů, kteří opravdu vědí, o čem mluví. Kurz byl nabitý informacemi, ale zároveň podaný srozumitelnou formou. Líbilo se mi, že jsme si vše hned zkoušeli na reálných příkladech. Určitě doporučuji!",
-		author: "Lucie Králová",
-		role: "Copywriter",
+		text: "Na workshop AI jsem šel s mírným obavami, jestli tempu vůbec dokážu stačit – nejsem programátor. Nakonec však bylo vše srozumitelné, praktické a překvapivě přínosné.",
+		author: "Radek S.",
+		role: "",
 	},
 	{
-		text: "Díky Entershipu jsem se přestal bát technologií. AI mi teď šetří spoustu času a já se můžu soustředit na to podstatné. Kurz byl skvěle strukturovaný a materiály jsou perfektní pro další studium.",
-		author: "Martin Černý",
-		role: "Freelancer",
+		text: "V praxi mě ale velmi překvapilo, jak srozumitelně a jasně Petr dokáže celý svět umělé inteligence vysvětlit, i když pro člověka z „jiného oboru“ může být na první pohled poměrně složitý.",
+		author: "Míša H.",
+		role: "",
+	},
+	{
+		text: "Kurz doporučuji všem – zejména střední a starší generace ocení, jak AI nástroje ušetří monotónní práci a repetitivní úkoly. Pro IT profesionály se AI stává nutností.",
+		author: "Petr H.",
+		role: "",
 	},
 ];
 

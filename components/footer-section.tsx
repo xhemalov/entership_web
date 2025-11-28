@@ -25,7 +25,9 @@ export default function FooterSection() {
 							className="h-12 w-auto mb-6"
 						/>
 						<p className="font-inter text-sm leading-relaxed">
-							Mise pro všechny, kdo chtějí letět rychleji než tech svět.
+							Mise pro všechny, kdo chtějí letět
+							<br />
+							rychleji než tech&nbsp;svět.
 						</p>
 					</div>
 					<div>
@@ -88,7 +90,7 @@ export default function FooterSection() {
 							Kontakt
 						</h4>
 						<div className="space-y-2 font-inter text-sm">
-							<p>hello@entership.cz</p>
+							<p>lydie.hemalova@entership.cz</p>
 							<div className="flex space-x-4 mt-4">
 								<a
 									href="https://www.facebook.com/NaucMeIT/"

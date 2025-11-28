@@ -147,10 +147,10 @@ export default function ContactPageContent() {
 							Na dotazy, spolupráce i partnerships:
 						</p>
 						<a
-							href="mailto:hello@entership.cz"
+							href="mailto:lydie.hemalova@entership.cz"
 							className="text-2xl md:text-4xl font-bold text-[#4DEEEA] hover:text-[#FFFBEB] transition-colors"
 						>
-							hello@entership.cz
+							lydie.hemalova@entership.cz
 						</a>
 						<p className="font-inter text-cream/80">
 							PS: Na Discordu odpovídáme rychleji!
