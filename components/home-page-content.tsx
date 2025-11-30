@@ -721,12 +721,6 @@ export default function HomePageContent() {
 								<p className="text-purple-main font-inter font-bold text-sm mb-2">
 									Fanatik AI, Staff Software Engineer
 								</p>
-								<a
-									href="mailto:petr.glaser@entership.cz"
-									className="text-[#701A75]/80 font-inter text-sm mb-6 hover:text-purple-main transition-colors"
-								>
-									petr.glaser@entership.cz
-								</a>
 								<div className="font-inter text-sm leading-relaxed space-y-4 text-[#701A75]/90">
 									<p>
 										Fanatik AI a produktivity vývojářů. I tak je Petr označován

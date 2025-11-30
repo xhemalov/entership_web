@@ -337,10 +337,10 @@ export default function AboutPageContent() {
 
 					<div className="text-center">
 						<a
-							href="mailto:petr.glaser@entership.cz"
+							href="mailto:lydie.hemalova@entership.cz"
 							className="inline-block bg-button-cream text-[#701A75] px-12 py-4 rounded-lg font-inter font-bold text-lg hover:bg-yellow-100 transition-colors uppercase tracking-wide"
 						>
-							CHCI BÝT LEKTOREM
+							Chci být lektorem
 						</a>
 					</div>
 				</div>

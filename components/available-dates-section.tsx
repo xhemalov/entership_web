@@ -53,8 +53,8 @@ export default function AvailableDatesSection() {
 
 				<div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto mb-12">
 					{/* Left Card - KOHORTA (fixed) */}
-					<button
-						type="button"
+					<a
+						href="https://entership-s-school.teachable.com/purchase?product_id=6555469&coupon_code=POCHOP-AI-XMAS-KOHORTA"
 						aria-label="Vybrat: Self kurz Kohorta"
 						className="relative bg-gradient-to-b from-button-cream via-button-cream to-button-cream/90 border-2 border-yellow-accent rounded-2xl overflow-hidden shadow-2xl shadow-purple-light/20 hover:shadow-3xl hover:shadow-purple-light/30 transition-all duration-300 hover:-translate-y-2 group w-full text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-accent/80 cursor-pointer flex flex-col"
 					>
@@ -286,14 +286,12 @@ export default function AvailableDatesSection() {
 								ZAČÍT S KOHORTOU
 							</div>
 						</div>
-					</button>
+					</a>
 
 					{/* Right Card - FLEX (unchanged) */}
 					<a
-						href="https://entership-s-school.teachable.com/l/pdp/pochop-ai"
-						target="_blank"
-						rel="noopener noreferrer"
-						aria-label="Vybrat: Jen videa bez lektora"
+						href="https://checkout.teachable.com/secure/2643637/checkout/order_x12ql380?coupon_code=POCHOP-AI-XMAS-FLEX"
+						aria-label="Vybrat: Plán flex - jen videa bez lektora"
 						className="relative bg-[#FFFBEB]/15 border border-[#FFFBEB]/30 rounded-2xl overflow-hidden hover:border-yellow-accent hover:shadow-xl hover:shadow-purple-light/10 transition-all duration-300 group w-full text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-accent/80 cursor-pointer flex flex-col"
 					>
 						{/* Icon section */}
