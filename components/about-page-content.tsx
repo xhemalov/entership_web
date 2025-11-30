@@ -43,11 +43,12 @@ export default function AboutPageContent() {
 						</a>
 					</div>
 					<div className="relative flex justify-center lg:justify-end">
-						<div className="w-[300px] h-[300px] lg:w-[500px] lg:h-[500px] bg-button-cream rounded-full flex items-center justify-center relative z-10">
-							{/* Placeholder for hero image/graphic */}
-							<div className="text-black font-nasalization text-2xl opacity-20">
-								LOGO / IMAGE
-							</div>
+						<div className="w-[300px] h-[300px] lg:w-[500px] lg:h-[500px] flex items-center justify-center relative z-10">
+							<img
+								src="/Nas_tym_illustration.svg"
+								alt="Ilustrace našeho týmu"
+								className="w-full h-full object-contain"
+							/>
 						</div>
 						{/* Decorative elements matching design vibe */}
 						<div className="absolute top-0 right-0 w-full h-full bg-purple-light/20 blur-3xl rounded-full -z-10" />
