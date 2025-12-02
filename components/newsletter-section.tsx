@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { subscribeToNewsletter } from "@/app/actions/ecomail";
+import { subscribe } from "@/app/actions/ecomail";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { toast } from "sonner";
@@ -27,7 +27,7 @@ export default function NewsletterSection() {
 		const formData = new FormData();
 		formData.append("email", values.email);
 
-		const result = await subscribeToNewsletter(formData);
+		const result = await subscribe(formData);
 
 		if (result.success) {
 			setIsSubmitted(true);
