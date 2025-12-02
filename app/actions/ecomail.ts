@@ -33,7 +33,9 @@ export async function subscribe(formData: FormData) {
 					key: API_KEY,
 				},
 				body: JSON.stringify({
-					email: result.data.email,
+					subscriber_data: {
+						email: result.data.email,
+					},
 					tags: ["pochop-ai"],
 					resubscribe: true,
 					update_existing: true,
