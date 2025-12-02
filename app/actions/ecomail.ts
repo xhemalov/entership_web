@@ -35,8 +35,8 @@ export async function subscribe(formData: FormData) {
 				body: JSON.stringify({
 					email: result.data.email,
 					tags: ["pochop-ai"],
-					resubscribe: true, // Resubscribe if unsubscribed
-					update_existing: true, // Update tags if already exists
+					resubscribe: true,
+					update_existing: true,
 				}),
 			},
 		);
