@@ -350,7 +350,7 @@ export default function HomePageContent() {
 				</div>
 			</section>
 
-			<section className="px-6 py-16 lg:px-12">
+			{/* <section className="px-6 py-16 lg:px-12">
 				<div className="max-w-4xl mx-auto text-center">
 					<h2 className="text-3xl lg:text-5xl font-nasalization font-bold text-foreground mb-8 leading-normal-xl">
 						Pojď se potkat s lektorem Petrem
@@ -364,7 +364,7 @@ export default function HomePageContent() {
 						</button>
 					</div>
 				</div>
-			</section>
+			</section> */}
 
 			<section className="px-6 py-16 lg:px-12 bg-purple-main">
 				<div className="max-w-6xl mx-auto">
@@ -683,14 +683,14 @@ export default function HomePageContent() {
 					<p className="font-inter text-lg mb-8 max-w-2xl mx-auto">
 						Nezůstávej pozadu. Začni svou cestu k mistrovství v AI ještě dnes.
 					</p>
-					<div className="relative bg-purple-light/20 border border-purple-light/30 rounded-lg aspect-video flex items-center justify-center mb-8">
+					{/* <div className="relative bg-purple-light/20 border border-purple-light/30 rounded-lg aspect-video flex items-center justify-center mb-8">
 						<button
 							type="button"
 							className="w-20 h-20 bg-[#FFFBEB] rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors"
 						>
 							<div className="w-0 h-0 border-l-[20px] border-l-black border-y-[12px] border-y-transparent ml-1" />
 						</button>
-					</div>
+					</div> */}
 					<a
 						href="#available-dates"
 						className="inline-block uppercase bg-button-cream text-[#701A75] px-12 py-6 rounded-xl font-inter font-bold text-xl hover:bg-yellow-100 transition-colors"
