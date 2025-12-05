@@ -1,24 +1,48 @@
+"use client";
+
+import { useEffect, useState } from "react";
+
 interface CountdownBarProps {
 	discountEnd: Date;
 }
 
 export default function CountdownBar({ discountEnd }: CountdownBarProps) {
-	const targetDate = discountEnd;
+	const [daysLeft, setDaysLeft] = useState<number | null>(null);
 
-	const now = new Date();
-	const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+	useEffect(() => {
+		const targetDate = discountEnd;
 
-	const diffTime = targetDate.getTime() - today.getTime();
-	const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+		const calculateDaysLeft = () => {
+			const now = new Date();
+			const difference = targetDate.getTime() - now.getTime();
 
-	if (diffDays <= 0) {
+			if (difference > 0) {
+				const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+				setDaysLeft(days);
+			} else {
+				setDaysLeft(null);
+			}
+		};
+
+		calculateDaysLeft();
+		const timer = setInterval(calculateDaysLeft, 60000);
+		return () => clearInterval(timer);
+	}, [discountEnd]);
+
+	if (daysLeft === null) {
 		return null;
 	}
 
-	const text =
-		diffDays === 1
-			? "Zaváděcí cena platí ještě 1 den."
-			: `Zaváděcí cena platí ještě ${diffDays} dní.`;
+	let text = "";
+	if (daysLeft === 0) {
+		text = "Zaváděcí cena končí dnes.";
+	} else if (daysLeft === 1) {
+		text = "Zaváděcí cena platí ještě 1 den.";
+	} else if (daysLeft >= 2 && daysLeft <= 4) {
+		text = `Zaváděcí cena platí ještě ${daysLeft} dny.`;
+	} else {
+		text = `Zaváděcí cena platí ještě ${daysLeft} dní.`;
+	}
 
 	return (
 		<div

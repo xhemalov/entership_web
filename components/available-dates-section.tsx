@@ -4,8 +4,7 @@ import { useState, useEffect } from "react";
 import FAQSection from "@/components/faq-section";
 import DiscountCountdown from "@/components/discount-countdown";
 import WaitlistSection from "@/components/waitlist-section";
-
-const DISCOUNT_END = new Date(2025, 11, 24); // Month is 0-indexed (11 = December)
+import { DISCOUNT_END } from "@/lib/constants";
 
 // Configuration for introductory pricing
 const ENABLE_INTRO_PRICE = true;

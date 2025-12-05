@@ -15,7 +15,7 @@ import {
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 
-const DISCOUNT_END = new Date(2025, 11, 24); // Month is 0-indexed (11 = December)
+import { DISCOUNT_END } from "@/lib/constants";
 
 export default function HomePageContent() {
 	return (
